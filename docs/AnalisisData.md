@@ -1,13 +1,15 @@
 # Análisis de la carpeta data: NFL Big Data Bowl (hackathon UNAM)
 
+Ver también: [Relaciones, complementos y limpieza de los datos](RelacionesYLimpieza.md), que explica cómo se conectan estos archivos, qué se puede derivar de ellos y cómo prepararlos.
+
 ## 1. Resumen
 
 - Temporada 2021, semanas 1 a 8: 122 partidos, 32 equipos y 1,679 jugadores.
 - 8,557 jugadas de pase, que incluyen sacks, scrambles e intentos de 2 puntos. No hay carreras de running back ni pateos.
-- Tracking: posición de los 22 jugadores y del balón en cada cuadro, a 10 cuadros por segundo (inferido). Suma 8,314,178 filas en 122 archivos.
+- Tracking: posición de los 22 jugadores y del balón en cada cuadro, a 10 cuadros por segundo (verificado: `dis` ≈ `s` × 0.1). Suma 8,314,178 filas en 122 archivos.
 - Tamaño total: 826 MB. El tracking ocupa 811 MB.
 - Las llaves cruzan entre tablas sin registros huérfanos (sección 3).
-- El repositorio no tiene diccionario de datos. Las definiciones salen de nombres, valores y cruces entre tablas. Lo marcado como "inferido" debe confirmarse con la documentación oficial de la competencia.
+- El repositorio no tiene diccionario de datos. Las definiciones salen de nombres, valores y cruces entre tablas. Lo marcado como "inferido" debe confirmarse con la documentación oficial de la competencia, que no se pudo obtener ([RelacionesYLimpieza.md, anexo B](RelacionesYLimpieza.md#anexo-b-fuentes-y-límites)).
 
 ## 2. Inventario de archivos
 
@@ -20,6 +22,8 @@
 | tracking/tracking_<gameId>.csv | 811 MB en 122 archivos (4.9 a 9.5 MB cada uno) | 8,314,178 | 16 | Un jugador o el balón en un cuadro (23 por cuadro) | Posiciones, velocidad y eventos |
 
 ## 3. Llaves y relaciones
+
+Detalle de las 14 relaciones comprobadas, con su cobertura: [RelacionesYLimpieza.md, sección 1](RelacionesYLimpieza.md#1-mapa-de-relaciones).
 
 | Tabla | Llave | Nota |
 |---|---|---|
@@ -42,7 +46,7 @@ Verificado:
 
 | Columna | Significado | Valores o formato |
 |---|---|---|
-| gameId | Identificador del partido | Entero. Sigue el patrón AAAAMMDD + 2 dígitos (inferido), p. ej. 2021090900 |
+| gameId | Identificador del partido | Entero. Empieza con la fecha del partido (AAAAMMDD) y termina con 2 dígitos de secuencia (verificado en 122 de 122), p. ej. 2021090900 |
 | season | Temporada | 2021 en todas las filas |
 | week | Semana | 1 a 8 |
 | gameDate | Fecha | Texto MM/DD/AAAA |
@@ -74,7 +78,7 @@ Situación:
 |---|---|---|
 | gameId, playId | Llave de la jugada | Ver sección 3 |
 | playDescription | Texto narrativo de la jugada | En inglés. Ejemplo: "(13:33) (Shotgun) T.Brady pass incomplete deep right to C.Godwin." |
-| quarter | Cuarto | 1 a 4. El valor 5 aparece en 98 jugadas (inferido: tiempo extra) |
+| quarter | Cuarto | 1 a 4. El valor 5 aparece en 98 jugadas de 12 partidos, con reloj máximo de 10:00 (inferido: tiempo extra) |
 | down | Intento | 1 a 4. El valor 0 aparece en 35 jugadas, todas intentos de 2 puntos |
 | yardsToGo | Yardas para el primer down | 0 a 39 |
 | possessionTeam, defensiveTeam | Equipo en ataque y equipo en defensa | Abreviaturas. Nunca son el mismo equipo |
@@ -95,7 +99,7 @@ Penalizaciones:
 
 | Columna | Significado | Valores o notas |
 |---|---|---|
-| penaltyYards | Yardas de penalización | Vacío en 7,801 jugadas. Hay 756 jugadas con penalización |
+| penaltyYards | Yardas de penalización | Vacío en 7,801 jugadas. Hay 756 con penalización. El signo indica el lado sancionado: negativo es la ofensa (217), positivo es la defensa (399) y 0 es declinada, compensada o de 0 yardas (140). Verificado en 604 de 604 faltas con infractor en campo |
 | foulName1, foulName2, foulName3 | Nombre de la falta | Texto en inglés, p. ej. "Defensive Pass Interference". Hay 736, 30 y 1 jugadas respectivamente |
 | foulNFLId1, foulNFLId2, foulNFLId3 | nflId del jugador que cometió la falta | Entero. Se vincula con players.csv |
 
@@ -124,7 +128,7 @@ Cada jugada tiene exactamente 22 filas, una por jugador en el campo (188,254 = 8
 | pff_hit, pff_hurry, pff_sack | El defensor golpeó, presionó o sacó al QB | 1 o 0. Con valor 1 en Pass Rush: 823, 2,824 y 585. En Coverage: 20, 53 y 17 |
 | pff_beatenByDefender | El bloqueador fue superado por el defensor | 1 o 0. Solo en Pass Block y en 2,030 filas Pass Route. Suma: 1,944 |
 | pff_hitAllowed, pff_hurryAllowed, pff_sackAllowed | El bloqueador permitió golpe, presión o sack | 1 o 0. Sumas: 544, 2,083 y 370 |
-| pff_nflIdBlockedPlayer | nflId del defensor que enfrentó el bloqueador (inferido) | 46,526 filas con dato, 665 nflId distintos |
+| pff_nflIdBlockedPlayer | nflId del defensor que enfrentó el bloqueador | 46,526 filas con dato, 665 nflId distintos. En 46,524 es un jugador de la misma jugada (Pass Rush 46,095, Coverage 429) |
 | pff_blockType | Tipo de bloqueo | 12 códigos: PP, PA, PT, SW, CL, CH, NB, PU, SR, BH, UP, PR. Sin diccionario |
 | pff_backFieldBlock | Bloqueo desde la zona de backfield | 1 o 0. Probablemente un RB u otro jugador detrás de la línea (inferido) |
 
@@ -135,18 +139,18 @@ Hay un archivo por partido (122). Cada cuadro tiene 23 filas: 22 jugadores y el 
 | Columna | Significado | Valores o notas |
 |---|---|---|
 | gameId, playId, frameId, nflId | Llave de la fila | nflId vacío en el balón |
-| frameId | Número de cuadro dentro de la jugada | 1 a 203. Sirve para medir tiempos a 10 cuadros por segundo (inferido de que dis ≈ s / 10) |
-| time | Marca de tiempo en UTC | Resolución de 1 segundo: hay 8.2 cuadros por marca en promedio. No sirve para tiempos finos |
+| frameId | Número de cuadro dentro de la jugada | 1 a 203. Sirve para medir tiempos a 10 cuadros por segundo (verificado: el cociente mediano de `dis` entre `s` × 0.1 es 1.002) |
+| time | Marca de tiempo en UTC | Resolución de 1 segundo: hay 8.2 cuadros por marca en promedio. No sirve para tiempos finos. Sí da la hora real de la jugada. En 15 cuadros, la fila del balón trae una marca distinta a la de los jugadores |
 | jerseyNumber | Dorsal | Vacío en el balón |
 | team | Equipo | Abreviatura, o football para el balón |
 | playDirection | Dirección de ataque de la jugada | left o right. Con right, el ataque avanza hacia X mayor. Verificado: el QB está detrás de la línea de scrimmage en el 100% de los snaps |
-| x, y | Posición en yardas (yd) | X de 0 a 120 (incluye zonas de anotación). Y de 0 a 53.3. Valores observados fuera de cancha: X de −3.55 a 121.15 e Y de −4.53 a 57.72 |
-| s | Velocidad | yd/s. Máximo 29.34 (≈ 60 mph) |
-| a | Aceleración | yd/s². Máximo absoluto 50.69. Probable ruido |
-| dis | Distancia desde el cuadro anterior | yd. Máximo 10.45, equivalente a unas 104 yd/s. Físicamente imposible, probable error de medición |
-| o | Orientación del cuerpo | Grados, de 0 a 360 |
-| dir | Dirección de movimiento | Grados, de 0 a 360 |
-| event | Evento etiquetado en ese cuadro | None significa sin evento. Un evento aparece en las 23 filas de su cuadro |
+| x, y | Posición en yardas (yd) | X de 0 a 120 (incluye zonas de anotación). Y de 0 a 53.3. Fuera de cancha: en jugadores, X de −3.55 a 121.15 (112 filas) e Y de −4.21 a 56.59 (857 filas). En el balón, Y de −4.53 a 57.72 (204 filas) |
+| s | Velocidad | yd/s. Máximo de jugadores 11.18. Máximo del balón 29.34 (≈ 60 mph, un pase en vuelo) |
+| a | Aceleración | yd/s². Nunca es negativa (mínimo 0), así que parece una magnitud. Máximo de jugadores 21.92 (10 filas con más de 15). Máximo del balón 50.69 |
+| dis | Distancia desde el cuadro anterior | yd por cuadro. Máximo de jugadores 3.45 (49 filas con más de 1.3). El balón llega a 10.45 y tiene 5,660 filas con más de 3: coinciden con su desplazamiento real entre cuadros, son saltos de posición del balón en vuelo y no un error de cálculo de `dis` |
+| o | Orientación del cuerpo | Grados, de 0 a 360. Se asume la misma convención que `dir` (inferido) |
+| dir | Dirección de movimiento | Grados, de 0 a 360. 0° apunta hacia +Y y crece en sentido horario (90° es +X). Verificado: error mediano de 1.3° contra el desplazamiento |
+| event | Evento etiquetado en ese cuadro | El texto None significa sin evento, y pandas lo lee como nulo por defecto. Un evento aparece en las 23 filas de su cuadro |
 
 ### 4.6 Eventos de tracking
 
@@ -156,7 +160,7 @@ Jugadas con cada evento, sobre 8,557. Los nombres vienen del archivo. Los signif
 |---|---|---|
 | ball_snap | 8,532 (99.7%) | Snap del balón |
 | pass_forward | 7,547 (88.2%) | Lanzamiento del pase |
-| autoevent_ballsnap / autoevent_passforward | 3,757 / 3,734 | Mismos hitos, generados automáticamente |
+| autoevent_ballsnap / autoevent_passforward | 3,757 / 3,734 | Mismos hitos, generados automáticamente. No son copias: en ninguna jugada con ambos coinciden en cuadro (mediana de 1 cuadro antes, hasta 167 antes en el snap) |
 | play_action | 1,971 (23.0%) | Engaño |
 | run | 474 | Carrera, probablemente del QB |
 | qb_sack / qb_strip_sack | 451 / 58 | Sack, o sack con balón suelto |
@@ -174,10 +178,12 @@ Jugadas con cada evento, sobre 8,557. Los nombres vienen del archivo. Los signif
 - Semana 6: 14 partidos. Sin juego: ATL, NO, NYJ y SF.
 - Semana 7: 13 partidos. Sin juego: BUF, DAL, JAX, LAC, MIN y PIT.
 - Semana 8: 15 partidos. Sin juego: BAL y LV.
-- Las ausencias de las semanas 6 a 8 parecen descansos. No lo verifiqué contra el calendario oficial.
+- Los 12 equipos con 7 partidos son exactamente los 12 ausentes en las semanas 6 a 8. Es coherente con semanas de descanso. No se verificó contra el calendario oficial.
 - 8,557 jugadas de pase, unas 70 por partido. Todas las descripciones contienen pass, sack o scramble, y passResult no tiene nulos. Las carreras del QB aparecen como scramble.
 
 ## 6. Calidad de datos
+
+Opciones de limpieza y normalización para cada hallazgo: [RelacionesYLimpieza.md, sección 3](RelacionesYLimpieza.md#3-limpieza-hallazgos-y-opciones).
 
 | # | Hallazgo | Evidencia | Qué hacer |
 |---|---|---|---|
@@ -187,16 +193,16 @@ Jugadas con cada evento, sobre 8,557. Los nombres vienen del archivo. Los signif
 | 4 | Dos formatos de fecha de nacimiento | 1,433 en AAAA-MM-DD, 14 en MM/DD/AAAA, 232 nulos | Leer ambos formatos |
 | 5 | Tiempo con resolución de 1 segundo | 8.2 cuadros por marca de tiempo en promedio | Medir tiempos con frameId |
 | 6 | Eventos escasos | pass_outcome_caught aparece en 23 jugadas (0.3%) | Tomar el resultado de passResult |
-| 7 | Eventos generados automáticamente | autoevent_ballsnap en 3,757 jugadas y autoevent_passforward en 3,734 (inferido) | Decidir si se usan o se excluyen |
-| 8 | Valores fuera de cancha y picos | X de −3.55 a 121.15, Y de −4.53 a 57.72, dis máximo 10.45 yd por cuadro | Recortar al campo y filtrar picos antes de graficar o calcular |
+| 7 | Eventos generados automáticamente | autoevent_ballsnap en 3,757 jugadas y autoevent_passforward en 3,734. Difieren del evento manual en todas las jugadas que tienen ambos | Usar el manual y, si falta, el automático |
+| 8 | Valores fuera de cancha y picos | Jugadores: 112 filas con X y 857 con Y fuera del campo, y hasta 59 filas con aceleración o distancia atípicas. Balón: 204 filas con Y fuera y saltos de hasta 10.45 yd por cuadro | Recortar al campo solo al dibujar. Excluir las filas atípicas solo para velocidades máximas |
 | 9 | Balón en el mismo archivo | 361,486 filas con nflId y jerseyNumber vacíos | Excluirlo de las listas de jugadores |
 | 10 | playResult cambia con penalizaciones | Difiere de prePenaltyPlayResult en 616 jugadas, 585 de ellas con penalización | Usar prePenaltyPlayResult para la jugada limpia |
 | 11 | Yardas de regreso fuera de playResult | En las 190 intercepciones playResult = 0. Los regresos solo aparecen en el texto, en 115 descripciones | Tomar las yardas de regreso del texto o excluir las intercepciones de métricas de yardas |
-| 12 | dropBackType vacío en jugadas anuladas | 528 nulos. 487 contienen "No Play" | No tratarlo como dato faltante al azar |
-| 13 | Penalización sin nombre de falta | 20 jugadas con penaltyYards y sin foulName1 (ninguna tiene foulName2) | Revisar caso por caso |
+| 12 | dropBackType vacío en jugadas anuladas | 528 nulos: 487 jugadas anuladas ("No Play"), 34 intentos de 2 puntos y 7 sin explicación | No tratarlo como dato faltante al azar |
+| 13 | Penalización sin nombre de falta | 20 jugadas con penaltyYards y sin foulName1. Son faltas de equipo: Illegal Formation (9), Illegal Shift (7) y Defensive Too Many Men on Field (4) | Leer el nombre del texto de la jugada |
 | 14 | pff_role no es exclusivo | 2,030 filas Pass Route tienen datos de bloqueo, sobre todo TE, RB y WR | No usar pff_role como etiqueta única |
 | 15 | Presión en filas Coverage | 20 hits, 53 presiones y 17 sacks con rol Coverage | Posible blitz etiquetado como cobertura (inferido) |
-| 16 | Dos fuentes para play action | 2,038 jugadas en pff_playAction y 1,971 con evento play_action | Documentar qué fuente usa cada métrica |
+| 16 | Dos fuentes para play action | 2,038 jugadas en pff_playAction y 1,971 con evento play_action. Coinciden en 1,945. Solo PFF: 93. Solo el evento: 26 | Usar pff_playAction, que cubre todas las jugadas |
 | 17 | Códigos sin diccionario | pff_blockType (12), pff_positionLinedUp (56), eventos, UNKNOWN en dropBackType | Pedir el diccionario oficial |
 | 18 | Descripciones en inglés | 100% de playDescription | Traducir o armar el texto desde campos estructurados |
 | 19 | down = 0 | 35 intentos de 2 puntos | Excluirlos de análisis por intento |
@@ -215,7 +221,7 @@ Jugadas con cada evento, sobre 8,557. Los nombres vienen del archivo. Los signif
 
 ### Prioridad 3: visual y métricas finas (costo alto)
 
-- tracking: reproducción de la jugada a 10 cuadros por segundo, tiempo al lanzamiento (mediana 2.7 s, p10 1.9 s, p90 4.2 s; 7,583 jugadas con snap y pase, usando eventos manuales o automáticos), velocidades máximas y distancia recorrida. Pesa 811 MB, así que conviene leerlo por partido.
+- tracking: reproducción de la jugada a 10 cuadros por segundo, tiempo al lanzamiento (mediana 2.7 s, p10 1.9 s, p90 4.2 s; 7,583 jugadas con snap y pase, evento manual y, si falta, automático), velocidades máximas y distancia recorrida. Pesa 811 MB, así que conviene leerlo por partido.
 
 ### Métricas calculables con estos datos
 
@@ -225,9 +231,9 @@ Jugadas con cada evento, sobre 8,557. Los nombres vienen del archivo. Los signif
 | Yardas por intento | Media de playResult en los intentos (C, I, IN) | plays |
 | Presión sobre el QB | Eventos de presión por jugada: suma de pff_hit, pff_hurry y pff_sack en Pass Rush, dividida entre 8,557 jugadas de pase | pffScoutingData |
 | Rendimiento por cobertura | Completos y yardas por intento según pff_passCoverage | plays |
-| Primer down en pases | Primer down si prePenaltyPlayResult ≥ yardsToGo, separado por down | plays |
+| Primer down en pases | Aproximación: primer down si prePenaltyPlayResult ≥ yardsToGo, separado por down. No hay bandera de primer down para validarla | plays |
 | Bloqueos ganados | Porcentaje de bloqueos con pff_beatenByDefender = 0 | pffScoutingData |
-| Tiempo al lanzamiento | (frameId del primer ball_snap o autoevent_ballsnap − frameId del primer pass_forward o autoevent_passforward) / 10 | tracking |
+| Tiempo al lanzamiento | (cuadro de pass_forward − cuadro de ball_snap) / 10. Usar el evento manual y, si falta, el automático | tracking |
 
 ## 8. Datos adicionales necesarios
 
@@ -251,7 +257,7 @@ Fuente: .kiro/steering/rules.md.
 - Stack fijo: FastAPI, React 18, Vite, Tailwind 3 y Recharts. No usar Streamlit, Flask, notebooks como app ni Docker.
 - data/ es solo lectura. Leer con rutas relativas a la raíz del proyecto.
 - El servidor es efímero. No depender de escribir archivos en disco. Calcular al arrancar o al responder.
-- Las tablas pequeñas (plays, pffScoutingData, players y games, unos 15 MB en total) pueden cargarse al arrancar. El tracking (811 MB) debe leerse por partido, de 4.9 a 9.5 MB cada archivo, o resumirse en memoria.
+- Las tablas pequeñas (plays, pffScoutingData, players y games, unos 15 MB en disco y unos 55 MB en memoria) pueden cargarse al arrancar. El tracking (811 MB) debe leerse por partido, de 4.9 a 9.5 MB cada archivo, o resumirse en memoria.
 - Las llamadas del dashboard a la API usan rutas relativas sin diagonal inicial, por ejemplo fetch('api/...').
 
 ## 10. Preguntas abiertas

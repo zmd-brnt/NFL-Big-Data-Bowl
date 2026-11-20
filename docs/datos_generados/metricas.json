@@ -1,0 +1,598 @@
+{
+  "tracking": {
+    "archivos": 122,
+    "filas": 8314178,
+    "filas_balon": 361486,
+    "cuadros": 361486,
+    "nulos": {
+      "nflId": 361486,
+      "jerseyNumber": 361486,
+      "o": 361486,
+      "dir": 361486,
+      "event": 0,
+      "x": 0,
+      "y": 0,
+      "s": 0,
+      "a": 0,
+      "dis": 0
+    },
+    "event_None_texto": 7673352,
+    "cuadros_por_jugada": {
+      "min": 19,
+      "mediana": 39.0,
+      "media": 42.2,
+      "max": 203
+    },
+    "dependencias_violadas": {
+      "jugada_con_2_direcciones": 0,
+      "cuadro_con_2_eventos": 0,
+      "jugador_con_2_equipos_en_partido": 0,
+      "jugador_con_2_dorsales_en_partido": 0,
+      "cuadros_con_2_marcas_time": 15,
+      "filas_time_distinto": 15,
+      "filas_time_distinto_balon": 15
+    },
+    "forma": {
+      "filas_con_llave_duplicada": 0,
+      "filas_por_cuadro_distintas_de_23": 0,
+      "jugadas_sin_22_jugadores": 0,
+      "jugadas_con_cuadros_discontinuos": 0
+    },
+    "atipicos": {
+      "jug_s_mayor_13": 0,
+      "jug_a_abs_mayor_15": 10,
+      "jug_dis_mayor_1_3": 49,
+      "jug_x_fuera": 112,
+      "jug_y_fuera": 857,
+      "bal_x_fuera": 0,
+      "bal_y_fuera": 204,
+      "bal_dis_mayor_3": 5660,
+      "jug_o_dir_nulos": 0
+    },
+    "extremos": {
+      "jug.x": [
+        -3.55,
+        121.15
+      ],
+      "jug.y": [
+        -4.21,
+        56.59
+      ],
+      "jug.s": [
+        0.0,
+        11.18
+      ],
+      "jug.a": [
+        0.0,
+        21.92
+      ],
+      "jug.dis": [
+        0.0,
+        3.45
+      ],
+      "bal.x": [
+        2.76,
+        119.2
+      ],
+      "bal.y": [
+        -4.53,
+        57.72
+      ],
+      "bal.s": [
+        0.0,
+        29.34
+      ],
+      "bal.a": [
+        0.0,
+        50.69
+      ],
+      "bal.dis": [
+        0.0,
+        10.45
+      ],
+      "jug.o": [
+        0.0,
+        360.0
+      ],
+      "jug.dir": [
+        0.0,
+        360.0
+      ],
+      "jug.frameId": [
+        1.0,
+        203.0
+      ],
+      "jug.jerseyNumber": [
+        1.0,
+        99.0
+      ]
+    },
+    "contra_pff": {
+      "pares": 188254,
+      "solo_en_uno": 0,
+      "equipo_distinto_al_del_rol": 0
+    },
+    "jugador_partido": {
+      "pares": 8901,
+      "por_partido": {
+        "min": 64.0,
+        "median": 73.0,
+        "max": 82.0
+      },
+      "jugadores_con_2_equipos": 15,
+      "jugadores_con_2_dorsales": 11
+    },
+    "eventos_cuadros_unicos": 27862,
+    "eventos_por_nombre_cuadros": {
+      "ball_snap": 8532,
+      "pass_forward": 7548,
+      "autoevent_passforward": 3734,
+      "autoevent_ballsnap": 3767,
+      "play_action": 1977,
+      "line_set": 140,
+      "pass_arrived": 367,
+      "autoevent_passinterrupted": 201,
+      "run": 474,
+      "fumble_offense_recovered": 11,
+      "fumble": 17,
+      "qb_sack": 451,
+      "man_in_motion": 177,
+      "pass_outcome_caught": 23,
+      "pass_outcome_incomplete": 40,
+      "pass_tipped": 111,
+      "qb_strip_sack": 58,
+      "shift": 133,
+      "first_contact": 80,
+      "huddle_break_offense": 3,
+      "lateral": 1,
+      "handoff": 10,
+      "penalty_flag": 2,
+      "tackle": 3,
+      "dropped_pass": 1,
+      "out_of_bounds": 1
+    },
+    "eventos_por_nombre_jugadas": {
+      "autoevent_ballsnap": 3757,
+      "autoevent_passforward": 3734,
+      "autoevent_passinterrupted": 201,
+      "ball_snap": 8532,
+      "fumble": 17,
+      "fumble_offense_recovered": 11,
+      "line_set": 114,
+      "man_in_motion": 177,
+      "pass_arrived": 367,
+      "pass_forward": 7547,
+      "pass_outcome_caught": 23,
+      "pass_outcome_incomplete": 40,
+      "play_action": 1971,
+      "qb_sack": 451,
+      "run": 474,
+      "pass_tipped": 111,
+      "qb_strip_sack": 58,
+      "shift": 132,
+      "first_contact": 80,
+      "huddle_break_offense": 3,
+      "handoff": 9,
+      "lateral": 1,
+      "penalty_flag": 2,
+      "tackle": 3,
+      "dropped_pass": 1,
+      "out_of_bounds": 1
+    }
+  },
+  "llaves_duplicadas": {
+    "games": 0,
+    "players": 0,
+    "plays": 0,
+    "pffScoutingData": 0
+  },
+  "games": {
+    "filas": 122,
+    "n_equipos": 32,
+    "lista_equipos": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+    ],
+    "equipos_con_7": 12,
+    "equipos_con_8": 20,
+    "equipo_repetido_en_semana": 0,
+    "partidos_por_semana": {
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 14,
+      "7": 13,
+      "8": 15
+    },
+    "jugadas_por_partido": {
+      "min": 47.0,
+      "median": 70.0,
+      "max": 97.0
+    },
+    "posesion_de_M_Stafford": {
+      "LA": 247
+    },
+    "gameId_prefijo_igual_a_fecha": 122,
+    "ultima_fecha": "11/01/2021",
+    "primera_marca_menos_inicio_min": {
+      "min": 0.9,
+      "50%": 3.6,
+      "max": 36.1
+    },
+    "marcas_duracion_horas": {
+      "min": 2.48,
+      "50%": 2.99,
+      "max": 4.03
+    }
+  },
+  "players": {
+    "filas": 1679,
+    "sin_birthDate": 232,
+    "sin_college": 224,
+    "sin_ambos": 219,
+    "solo_sin_birthDate": 13,
+    "solo_sin_college": 5,
+    "nflId_mayor_53000": 226,
+    "sin_birthDate_entre_ellos": 214,
+    "sin_birthDate_entre_los_demas": 18,
+    "altura_formato_ok": 1679,
+    "altura_pulg_min_max": [
+      66,
+      81
+    ],
+    "peso_min_max": [
+      158,
+      380
+    ],
+    "birth_iso": 1433,
+    "birth_mdy": 14,
+    "nombres_repetidos": 8,
+    "jugadores_con_nombre_repetido": 16,
+    "posiciones": {
+      "WR": 210,
+      "CB": 192,
+      "DE": 142,
+      "OLB": 136,
+      "RB": 126,
+      "T": 122,
+      "TE": 121,
+      "DT": 114,
+      "G": 99,
+      "ILB": 81,
+      "FS": 72,
+      "SS": 69,
+      "QB": 60,
+      "C": 55,
+      "NT": 34,
+      "MLB": 27,
+      "FB": 15,
+      "LB": 2,
+      "DB": 2
+    }
+  },
+  "plays": {
+    "filas": 8557,
+    "no_play": 489,
+    "no_play_con_penaltyYards": 489,
+    "con_penaltyYards": 756,
+    "penaltyYards_cero": 140,
+    "penaltyYards_negativo": 217,
+    "penaltyYards_positivo": 399,
+    "con_foulName1": 736,
+    "penalty_sin_foulName1": 20,
+    "penalty_sin_foulName1_en_cero": 8,
+    "penalty_sin_foulName1_negativo": 10,
+    "faltas_registradas": [
+      736,
+      30,
+      1
+    ],
+    "nulos_raros": 7,
+    "nulos_raros_en_no_play": 6,
+    "dropBack_nulo": 528,
+    "dropBack_nulo_no_play": 487,
+    "dropBack_nulo_dos_puntos": 35,
+    "dropBack_nulo_otros": 7,
+    "yardlineSide_nulo": 125,
+    "yardlineSide_nulo_en_50": 125,
+    "resultado_difiere": 616,
+    "difiere_con_penaltyYards": 585,
+    "difiere_sin_penaltyYards": 31,
+    "delta_igual_penaltyYards": 399,
+    "down0": 35,
+    "down0_dos_puntos": 35,
+    "yardsToGo0": 35,
+    "yardsToGo0_en_down0": 35,
+    "cuarto5": 98,
+    "partidos_con_cuarto5": 12,
+    "no_play_playResult_igual_penaltyYards": 474,
+    "entre_downs": 13,
+    "entre_downs_playResult_sin_sancion": 12,
+    "textos_repetidos": 2,
+    "play_action_pff": 2038,
+    "play_action_texto": 0
+  },
+  "orden": {
+    "por_playId": {
+      "reloj": 14,
+      "marcador": 7
+    },
+    "por_reloj_y_playId": {
+      "reloj": 0,
+      "marcador": 0
+    },
+    "jugadas_con_mismo_segundo": 20,
+    "gameClock_formato_ok": 8557,
+    "gameClock_igual_al_texto": [
+      8522,
+      8522
+    ]
+  },
+  "personal": {
+    "ofensivo_suma_11": 8556,
+    "ofensivo_total": 8556,
+    "defensivo_suma_11": 8556,
+    "defensivo_total": 8556,
+    "etiqueta_QB": 32,
+    "etiqueta_OL": 96,
+    "etiquetas_ofensivas": [
+      "LB",
+      "OL",
+      "QB",
+      "RB",
+      "TE",
+      "WR"
+    ],
+    "etiquetas_defensivas": [
+      "DB",
+      "DL",
+      "LB"
+    ]
+  },
+  "campo": {
+    "comparables": 8556,
+    "coinciden": 8556,
+    "a_20_yardas_o_menos": 1182,
+    "cobertura_red_zone_o_goal_line": 401,
+    "ambas": 401
+  },
+  "touchdown": {
+    "texto_ingenuo": 404,
+    "con_regla": 380,
+    "ofensivos_validables": 358,
+    "ofensivos_suben_6_o_mas": 356,
+    "intercepciones_validables": 12,
+    "intercepciones_suben_6_o_mas": 12,
+    "por_passResult": {
+      "C": 351,
+      "R": 15,
+      "IN": 13,
+      "S": 1
+    }
+  },
+  "pases": {
+    "lanzados": 7565,
+    "con_longitud": 7527,
+    "con_zona": 7530,
+    "longitud": {
+      "short": 5876,
+      "deep": 1651
+    },
+    "con_objetivo_en_texto": 7308,
+    "sin_objetivo_en_texto": 257,
+    "objetivo": {
+      "resuelto": 7290,
+      "resuelto_por_inicial": 18
+    },
+    "nombres_sin_coincidencia": {
+      "D.Harris": 18
+    }
+  },
+  "pff": {
+    "filas": 188254,
+    "roles": {
+      "Coverage": 57765,
+      "Pass Block": 46057,
+      "Pass Route": 39513,
+      "Pass Rush": 36362,
+      "Pass": 8557
+    },
+    "posiciones_distintas": 56,
+    "tipos_de_bloqueo": 12,
+    "jugadas_11_ofensa_y_11_defensa": 8557,
+    "bloqueadores_por_jugada": {
+      "5": 6087,
+      "6": 1742,
+      "7": 657,
+      "8": 68,
+      "9": 3
+    },
+    "rushers_por_jugada": {
+      "0": 1,
+      "1": 2,
+      "2": 16,
+      "3": 420,
+      "4": 6011,
+      "5": 1689,
+      "6": 348,
+      "7": 69,
+      "8": 1
+    },
+    "pass_route_con_bloqueo": 2030,
+    "pass_block_sin_tipo": 183,
+    "pass_block_sin_bloqueado": 1531,
+    "coverage_con_presion": 90,
+    "bloqueos_con_objetivo": 46526,
+    "objetivo_en_la_jugada": 46524,
+    "rol_del_bloqueado": {
+      "Pass Rush": 46095,
+      "Coverage": 429
+    },
+    "sacks_passResult": 543,
+    "sacks_con_pff_sack": 536,
+    "sacks_con_sackAllowed": 348,
+    "pff_sack_fuera_de_S": 0,
+    "sacks_compartidos": 66,
+    "jugadas_con_presion": 3216,
+    "pct_jugadas_con_presion": 37.6,
+    "pasador_no_QB": 1,
+    "posiciones_con_rol_unico": 7
+  },
+  "eventos": {
+    "jugadas": 8557,
+    "snap_manual": 8532,
+    "snap_auto": 3757,
+    "snap_alguno": 8533,
+    "pase_manual": 7547,
+    "pase_auto": 3734,
+    "pase_alguno": 7604,
+    "pase_solo_auto": 57,
+    "auto_menos_manual_snap": {
+      "n": 3756,
+      "iguales": 0,
+      "mediana": -1.0,
+      "min": -167.0,
+      "max": 6.0
+    },
+    "auto_menos_manual_pase": {
+      "n": 3677,
+      "iguales": 0,
+      "mediana": -1.0,
+      "min": -5.0,
+      "max": 5.0
+    },
+    "tiempo_al_lanzamiento": {
+      "el_menor_de_ambos": {
+        "count": 7583.0,
+        "mean": 2.96,
+        "10%": 1.9,
+        "50%": 2.7,
+        "90%": 4.2,
+        "max": 19.2
+      },
+      "manual_con_respaldo_auto": {
+        "count": 7583.0,
+        "mean": 2.95,
+        "10%": 1.9,
+        "50%": 2.7,
+        "90%": 4.2,
+        "max": 9.8
+      },
+      "solo_manual": {
+        "count": 7525.0,
+        "mean": 2.94,
+        "10%": 1.9,
+        "50%": 2.7,
+        "90%": 4.2,
+        "max": 9.8
+      },
+      "politicas_distintas": 2653,
+      "difieren_medio_segundo_o_mas": 35,
+      "mayor_diferencia_s": 16.6
+    },
+    "play_action_cruce": {
+      "ambos": 1945,
+      "solo_pff": 93,
+      "solo_evento": 26
+    },
+    "qb_sack_cruce": {
+      "sacks": 543,
+      "con_evento": 508,
+      "evento_fuera_de_S": 1
+    },
+    "pase_por_resultado": {
+      "I": [
+        2754,
+        2755
+      ],
+      "C": [
+        4618,
+        4620
+      ],
+      "S": [
+        30,
+        543
+      ],
+      "R": [
+        12,
+        449
+      ],
+      "IN": [
+        190,
+        190
+      ]
+    }
+  },
+  "faltas": {
+    "Offensive": {
+      "con_jugador_en_campo": 187,
+      "lado_coincide": 186
+    },
+    "Defensive": {
+      "con_jugador_en_campo": 280,
+      "lado_coincide": 280
+    },
+    "total": 767,
+    "fuera_de_la_jugada": 1,
+    "signo_penaltyYards": {
+      "con_infractor_en_campo": 604,
+      "negativo_y_ofensa": 207,
+      "positivo_y_defensa": 397
+    }
+  },
+  "rendimiento": {
+    "archivo": "tracking_2021092700.csv",
+    "filas": 67390,
+    "lectura_s_defecto": 0.08,
+    "mb_defecto": 20.5,
+    "lectura_s_optimizada": 0.1,
+    "mb_optimizada": 3.1,
+    "bytes_fila_defecto": 304.7,
+    "bytes_fila_optimizada": 46.0,
+    "total_mb_defecto": 2533,
+    "total_mb_optimizada": 383,
+    "tablas_pequenas_mb": {
+      "games": 0.03,
+      "players": 0.49,
+      "plays": 8.5,
+      "pffScoutingData": 45.7
+    }
+  },
+  "unidades": {
+    "cociente_dis_sobre_s_por_0_1": 1.002,
+    "error_mediano_grados_0_en_y_horario": 1.3,
+    "error_mediano_grados_0_en_x_antihorario": 92.2
+  }
+}

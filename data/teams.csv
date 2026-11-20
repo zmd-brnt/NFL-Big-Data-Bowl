@@ -1,0 +1,33 @@
+team,nombre,conferencia,division
+ARI,Arizona Cardinals,NFC,Oeste
+ATL,Atlanta Falcons,NFC,Sur
+BAL,Baltimore Ravens,AFC,Norte
+BUF,Buffalo Bills,AFC,Este
+CAR,Carolina Panthers,NFC,Sur
+CHI,Chicago Bears,NFC,Norte
+CIN,Cincinnati Bengals,AFC,Norte
+CLE,Cleveland Browns,AFC,Norte
+DAL,Dallas Cowboys,NFC,Este
+DEN,Denver Broncos,AFC,Oeste
+DET,Detroit Lions,NFC,Norte
+GB,Green Bay Packers,NFC,Norte
+HOU,Houston Texans,AFC,Sur
+IND,Indianapolis Colts,AFC,Sur
+JAX,Jacksonville Jaguars,AFC,Sur
+KC,Kansas City Chiefs,AFC,Oeste
+LA,Los Angeles Rams,NFC,Oeste
+LAC,Los Angeles Chargers,AFC,Oeste
+LV,Las Vegas Raiders,AFC,Oeste
+MIA,Miami Dolphins,AFC,Este
+MIN,Minnesota Vikings,NFC,Norte
+NE,New England Patriots,AFC,Este
+NO,New Orleans Saints,NFC,Sur
+NYG,New York Giants,NFC,Este
+NYJ,New York Jets,AFC,Este
+PHI,Philadelphia Eagles,NFC,Este
+PIT,Pittsburgh Steelers,AFC,Norte
+SEA,Seattle Seahawks,NFC,Oeste
+SF,San Francisco 49ers,NFC,Oeste
+TB,Tampa Bay Buccaneers,NFC,Sur
+TEN,Tennessee Titans,AFC,Sur
+WAS,Washington Football Team,NFC,Este

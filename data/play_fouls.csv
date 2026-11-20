@@ -1,0 +1,788 @@
+gameId,playId,falta,nflId,orden,ladoInfractor
+2021090900,869,Illegal Use of Hands,52459,1,defensa
+2021090900,1227,Taunting,40151,1,ofensa
+2021090900,1227,Unnecessary Roughness,44955,2,defensa
+2021090900,1392,Defensive Pass Interference,46132,1,defensa
+2021090900,1506,Defensive Holding,47877,1,defensa
+2021090900,2129,Defensive Pass Interference,47877,1,defensa
+2021090900,2129,Face Mask (15 Yards),47877,2,defensa
+2021090900,2298,Offensive Holding,46119,1,ofensa
+2021090900,2678,Defensive Pass Interference,43757,1,defensa
+2021090900,2915,Offensive Holding,52421,1,ofensa
+2021090900,3014,Illegal Block Above the Waist,41915,1,defensa
+2021090900,3014,Tripping,47911,2,ofensa
+2021090900,4211,Offensive Holding,37082,1,ofensa
+2021090900,4393,Offensive Holding,46119,1,ofensa
+2021091200,966,Illegal Formation,,1,
+2021091200,1459,Intentional Grounding,33084,1,ofensa
+2021091200,2978,Offensive Pass Interference,46094,1,ofensa
+2021091200,3110,Offensive Pass Interference,46095,1,ofensa
+2021091200,3383,Defensive Pass Interference,42830,1,defensa
+2021091200,4041,Intentional Grounding,33084,1,ofensa
+2021091200,4131,Offensive Holding,39950,1,ofensa
+2021091200,4240,Defensive Pass Interference,42441,1,defensa
+2021091201,345,Offensive Holding,44875,1,ofensa
+2021091201,500,Offensive Holding,42392,1,ofensa
+2021091201,589,Offensive Holding,42471,1,ofensa
+2021091201,691,Unsportsmanlike Conduct,52457,1,ofensa
+2021091201,1572,Offensive Holding,44875,1,ofensa
+2021091201,1653,Defensive Too Many Men on Field,,1,
+2021091201,1710,Defensive Offside,52510,1,defensa
+2021091201,2126,Defensive Holding,44839,1,defensa
+2021091201,3165,Defensive Pass Interference,46698,1,defensa
+2021091201,3655,Defensive Holding,46698,1,defensa
+2021091201,4103,Offensive Holding,44875,1,ofensa
+2021091201,4233,Defensive Offside,38548,1,defensa
+2021091201,4266,Offensive Holding,42445,1,ofensa
+2021091202,2283,Defensive Pass Interference,43407,1,defensa
+2021091202,2684,Offensive Pass Interference,53488,1,ofensa
+2021091202,3635,Illegal Formation,41295,1,ofensa
+2021091203,223,Offensive Holding,47976,1,ofensa
+2021091203,1591,Defensive Pass Interference,41331,1,defensa
+2021091203,1591,Defensive Offside,43694,2,defensa
+2021091203,1745,Offensive Holding,43640,1,ofensa
+2021091203,2104,Offensive Holding,43640,1,ofensa
+2021091203,2186,Illegal Formation,,1,
+2021091203,2219,Offensive Holding,47801,1,ofensa
+2021091203,3261,Illegal Use of Hands,44915,1,defensa
+2021091203,3682,Offensive Holding,52466,1,ofensa
+2021091203,4415,Illegal Formation,,1,
+2021091203,4596,Defensive Holding,44872,1,defensa
+2021091204,660,Roughing the Passer,42360,1,defensa
+2021091204,1365,Roughing the Passer,44834,1,defensa
+2021091204,1811,Offensive Holding,48455,1,ofensa
+2021091204,2263,Intentional Grounding,41291,1,ofensa
+2021091204,2367,Unnecessary Roughness,42389,1,defensa
+2021091204,3060,Illegal Touch Pass,52574,1,ofensa
+2021091204,3404,Offensive Holding,52483,1,ofensa
+2021091204,3444,Defensive Offside,41249,1,defensa
+2021091204,3741,Defensive Pass Interference,53601,1,defensa
+2021091204,3973,Defensive Pass Interference,41358,1,defensa
+2021091205,151,Illegal Formation,,1,
+2021091205,1179,Offensive Holding,47818,1,ofensa
+2021091205,1212,Roughing the Passer,43356,1,defensa
+2021091205,1667,Offensive Holding,47818,1,ofensa
+2021091205,1988,Face Mask (15 Yards),43325,1,defensa
+2021091205,2042,Offensive Pass Interference,53518,1,ofensa
+2021091205,3175,Roughing the Passer,43356,1,defensa
+2021091205,3467,Defensive Pass Interference,44902,1,defensa
+2021091205,3548,Unnecessary Roughness,44926,1,defensa
+2021091206,98,Defensive Offside,44818,1,defensa
+2021091206,948,Taunting,47847,1,ofensa
+2021091206,3406,Defensive Pass Interference,46211,1,defensa
+2021091207,218,Ineligible Downfield Pass,52480,1,ofensa
+2021091207,1152,Defensive Pass Interference,38569,1,defensa
+2021091207,2189,Defensive Offside,42401,1,defensa
+2021091208,920,Defensive Pass Interference,53476,1,defensa
+2021091208,1545,Defensive Pass Interference,43313,1,defensa
+2021091208,1675,Offensive Holding,35462,1,ofensa
+2021091208,2123,Roughing the Passer,43292,1,defensa
+2021091208,2482,Illegal Contact,45571,1,defensa
+2021091208,3992,Illegal Use of Hands,40089,1,ofensa
+2021091209,514,Disqualification,46162,1,defensa
+2021091209,642,Offensive Holding,43367,1,ofensa
+2021091209,677,Defensive Offside,44813,1,defensa
+2021091209,1085,Defensive Offside,41227,1,defensa
+2021091209,1212,Defensive Offside,44813,1,defensa
+2021091209,1508,Face Mask (15 Yards),46144,1,defensa
+2021091209,1716,Offensive Pass Interference,43454,1,ofensa
+2021091209,1938,Offensive Holding,46235,1,ofensa
+2021091210,726,Offensive Holding,53471,1,ofensa
+2021091210,1657,Roughing the Passer,43503,1,defensa
+2021091210,2426,Illegal Formation,,1,
+2021091210,2515,Offensive Holding,52603,1,ofensa
+2021091210,2550,Illegal Use of Hands,46307,1,defensa
+2021091210,2912,Illegal Blindside Block,42474,1,ofensa
+2021091211,1517,Illegal Use of Hands,47888,1,defensa
+2021091211,1698,Defensive Pass Interference,53505,1,defensa
+2021091211,2203,Illegal Shift,,1,
+2021091211,2536,Roughing the Passer,42465,1,defensa
+2021091211,2755,Offensive Holding,44068,1,ofensa
+2021091212,106,Defensive Offside,41464,1,defensa
+2021091212,912,Defensive Pass Interference,42393,1,defensa
+2021091212,1199,Unnecessary Roughness,52518,1,defensa
+2021091212,2630,Unnecessary Roughness,42355,1,defensa
+2021091212,2804,Unnecessary Roughness,47854,1,defensa
+2021091212,3014,Defensive Pass Interference,41240,1,defensa
+2021091212,3181,Roughing the Passer,53479,1,defensa
+2021091212,3446,Illegal Use of Hands,46103,1,ofensa
+2021091213,684,Face Mask (15 Yards),47862,1,defensa
+2021091213,1818,Roughing the Passer,38619,1,defensa
+2021091213,2615,Illegal Use of Hands,41239,1,defensa
+2021091213,3054,Offensive Holding,46180,1,ofensa
+2021091213,3284,Defensive Holding,39976,1,defensa
+2021091300,1553,Defensive Pass Interference,43393,1,defensa
+2021091300,2030,Unnecessary Roughness,52436,1,defensa
+2021091300,2373,Offensive Pass Interference,52489,1,ofensa
+2021091300,2700,Defensive Pass Interference,43393,1,defensa
+2021091600,375,Roughing the Passer,52410,1,defensa
+2021091600,1516,Defensive Pass Interference,43313,1,defensa
+2021091600,2298,Defensive Holding,42376,1,defensa
+2021091600,2624,Defensive Pass Interference,43373,1,defensa
+2021091600,2834,Defensive Pass Interference,43351,1,defensa
+2021091600,2966,Offensive Holding,53480,1,ofensa
+2021091600,3392,Defensive Holding,43351,1,defensa
+2021091900,440,Roughing the Passer,53457,1,defensa
+2021091900,940,Offensive Holding,42362,1,ofensa
+2021091900,1459,Illegal Use of Hands,53505,1,defensa
+2021091900,1621,Intentional Grounding,42344,1,ofensa
+2021091900,1810,Unnecessary Roughness,52482,1,defensa
+2021091900,2134,Lowering the Head to Initiate Contact,52665,1,defensa
+2021091900,3310,Roughing the Passer,42553,1,defensa
+2021091900,3800,Illegal Blindside Block,46527,1,defensa
+2021091901,198,Defensive Pass Interference,43299,1,defensa
+2021091901,500,Taunting,38868,1,defensa
+2021091901,771,Taunting,43350,1,defensa
+2021091901,870,Offensive Holding,40026,1,ofensa
+2021091901,870,Roughing the Passer,46146,2,defensa
+2021091901,2154,Unnecessary Roughness,37087,1,defensa
+2021091901,3198,Offensive Pass Interference,52451,1,ofensa
+2021091902,164,Offensive Holding,43297,1,ofensa
+2021091902,1751,Offensive Holding,46143,1,ofensa
+2021091902,2264,Offensive Holding,43297,1,ofensa
+2021091902,2678,Taunting,46167,1,ofensa
+2021091902,2898,Defensive Holding,42816,1,defensa
+2021091902,2898,Defensive Pass Interference,53455,2,defensa
+2021091902,3414,Ineligible Downfield Pass,47806,1,ofensa
+2021091902,3675,Face Mask (15 Yards),37317,1,defensa
+2021091902,3820,Defensive Offside,52496,1,defensa
+2021091904,174,Illegal Contact,41240,1,defensa
+2021091904,444,Defensive Holding,44902,1,defensa
+2021091904,1058,Defensive Pass Interference,53438,1,defensa
+2021091904,3336,Defensive Pass Interference,44926,1,defensa
+2021091905,805,Taunting,46698,1,defensa
+2021091905,1235,Defensive Offside,43319,1,defensa
+2021091905,1730,Offensive Holding,52447,1,ofensa
+2021091905,1832,Defensive Holding,44839,1,defensa
+2021091905,1956,Intentional Grounding,43380,1,ofensa
+2021091905,2891,Defensive Holding,43327,1,defensa
+2021091905,2891,Offensive Holding,44875,2,ofensa
+2021091905,4000,Roughing the Passer,43638,1,defensa
+2021091905,4000,Defensive Pass Interference,46223,2,defensa
+2021091906,639,Defensive Offside,48247,1,defensa
+2021091906,1761,Intentional Grounding,53444,1,ofensa
+2021091906,1989,Defensive Holding,47828,1,defensa
+2021091906,2063,Chop Block,43433,1,ofensa
+2021091906,2373,Defensive Pass Interference,46775,1,defensa
+2021091906,2819,Offensive Pass Interference,40149,1,ofensa
+2021091906,2876,Defensive Holding,43435,1,defensa
+2021091906,3336,Offensive Holding,43586,1,ofensa
+2021091907,194,Defensive Pass Interference,38673,1,defensa
+2021091907,919,Illegal Contact,42030,1,defensa
+2021091907,960,Illegal Touch Pass,52429,1,ofensa
+2021091907,1507,Defensive Pass Interference,38673,1,defensa
+2021091907,2890,Illegal Use of Hands,38542,1,defensa
+2021091907,3014,Defensive Pass Interference,42830,1,defensa
+2021091907,3653,Unnecessary Roughness,41256,1,defensa
+2021091908,754,Illegal Use of Hands,39997,1,defensa
+2021091908,1028,Lowering the Head to Initiate Contact,46902,1,defensa
+2021091908,1326,Illegal Contact,47823,1,defensa
+2021091908,1796,Offensive Holding,53446,1,ofensa
+2021091908,2531,Roughing the Passer,44815,1,defensa
+2021091908,3031,Disqualification,41321,1,ofensa
+2021091908,3031,Unsportsmanlike Conduct,44815,2,
+2021091909,1243,Defensive Holding,44848,1,defensa
+2021091910,473,Unnecessary Roughness,40151,1,ofensa
+2021091910,1025,Defensive Pass Interference,52424,1,defensa
+2021091910,2033,Defensive Offside,41915,1,defensa
+2021091910,2074,Unnecessary Roughness,46132,1,defensa
+2021091910,2125,Defensive Offside,35454,1,defensa
+2021091910,2380,Defensive Pass Interference,43341,1,defensa
+2021091910,3094,Face Mask (15 Yards),46132,1,defensa
+2021091910,3938,Taunting,47882,1,defensa
+2021091911,202,Defensive Pass Interference,46188,1,defensa
+2021091911,1080,Defensive Pass Interference,43533,1,defensa
+2021091911,1323,Defensive Offside,53441,1,defensa
+2021091911,1544,Offensive Holding,52554,1,ofensa
+2021091911,2343,Ineligible Downfield Pass,40089,1,ofensa
+2021091911,2890,Defensive Holding,52459,1,defensa
+2021091911,3024,Offensive Holding,34540,1,ofensa
+2021091911,3066,Unnecessary Roughness,52459,1,defensa
+2021091911,3066,Defensive Offside,52587,2,defensa
+2021091912,1642,Roughing the Passer,43318,1,defensa
+2021091912,2015,Defensive Pass Interference,52651,1,defensa
+2021091912,2333,Unnecessary Roughness,52435,1,defensa
+2021091912,2373,Defensive Holding,47871,1,defensa
+2021091912,3443,Taunting,46211,1,defensa
+2021091912,4380,Roughing the Passer,44818,1,defensa
+2021091913,865,Intentional Grounding,44822,1,ofensa
+2021091913,1866,Offensive Holding,41222,1,ofensa
+2021091913,2561,Defensive Holding,44828,1,defensa
+2021091913,2698,Illegal Contact,40017,1,defensa
+2021091913,3428,Illegal Contact,40017,1,defensa
+2021092000,354,Illegal Use of Hands,47929,1,defensa
+2021092000,817,Intentional Grounding,43290,1,ofensa
+2021092000,1073,Face Mask (15 Yards),43404,1,defensa
+2021092000,2337,Defensive Too Many Men on Field,,1,
+2021092000,2404,Defensive Pass Interference,53953,1,defensa
+2021092000,2587,Defensive Holding,44888,1,defensa
+2021092000,2842,Defensive Pass Interference,47929,1,defensa
+2021092300,737,Illegal Contact,43395,1,defensa
+2021092300,1068,Defensive Offside,46205,1,defensa
+2021092300,1213,Roughing the Passer,53587,1,defensa
+2021092300,2175,Defensive Pass Interference,46124,1,defensa
+2021092300,2233,Defensive Offside,52592,1,defensa
+2021092300,2422,Unnecessary Roughness,41300,1,defensa
+2021092300,2713,Offensive Holding,42362,1,ofensa
+2021092300,2819,Defensive Pass Interference,43395,1,defensa
+2021092600,370,Offensive Pass Interference,43722,1,ofensa
+2021092600,854,Defensive Pass Interference,43313,1,defensa
+2021092600,2022,Illegal Blindside Block,35470,1,defensa
+2021092600,2022,Defensive Holding,46085,2,defensa
+2021092600,2022,Illegal Contact,46190,3,defensa
+2021092600,3838,Illegal Contact,40166,1,defensa
+2021092601,166,Defensive Holding,52458,1,defensa
+2021092601,473,Defensive Holding,52571,1,defensa
+2021092601,473,Roughing the Passer,53679,2,defensa
+2021092601,2726,Defensive Pass Interference,44903,1,defensa
+2021092601,3130,Defensive Holding,46073,1,defensa
+2021092602,79,Defensive Holding,46187,1,defensa
+2021092602,857,Offensive Holding,45268,1,ofensa
+2021092602,1058,Unnecessary Roughness,52483,1,ofensa
+2021092602,1351,Defensive Holding,44828,1,defensa
+2021092602,3112,Defensive Pass Interference,37100,1,defensa
+2021092603,1111,Offensive Holding,42367,1,ofensa
+2021092603,3069,Offensive Pass Interference,42302,1,ofensa
+2021092603,3500,Unnecessary Roughness,52416,1,defensa
+2021092603,3929,Face Mask (15 Yards),41939,1,ofensa
+2021092604,232,Defensive Offside,43292,1,defensa
+2021092604,564,Offensive Holding,41390,1,ofensa
+2021092604,614,Illegal Contact,45571,1,defensa
+2021092604,614,Defensive Holding,46188,2,defensa
+2021092604,737,Low Block,52440,1,ofensa
+2021092604,1575,Illegal Shift,48556,1,ofensa
+2021092604,2206,Defensive Holding,45571,1,defensa
+2021092604,2625,Illegal Use of Hands,52504,1,ofensa
+2021092604,3642,Defensive Pass Interference,52546,1,defensa
+2021092604,3697,Illegal Shift,34540,1,ofensa
+2021092604,4112,Defensive Pass Interference,47813,1,defensa
+2021092604,4253,Defensive Holding,44202,1,defensa
+2021092605,1820,Defensive Holding,43700,1,defensa
+2021092605,3263,Defensive Pass Interference,53505,1,defensa
+2021092606,105,Defensive Pass Interference,53630,1,defensa
+2021092606,1108,Defensive Holding,42346,1,defensa
+2021092606,1696,Offensive Pass Interference,45255,1,ofensa
+2021092606,1867,Unnecessary Roughness,52444,1,defensa
+2021092606,2734,Offensive Holding,52551,1,ofensa
+2021092606,3610,Defensive Pass Interference,40031,1,defensa
+2021092606,3815,Defensive Pass Interference,44893,1,defensa
+2021092606,3870,Offensive Holding,37090,1,ofensa
+2021092607,247,Offensive Holding,47794,1,ofensa
+2021092607,390,Offensive Pass Interference,52457,1,ofensa
+2021092607,891,Defensive Pass Interference,44872,1,defensa
+2021092607,1708,Roughing the Passer,38548,1,defensa
+2021092607,1954,Offensive Holding,41619,1,ofensa
+2021092607,2427,Offensive Holding,53516,1,ofensa
+2021092607,2614,Roughing the Passer,44915,1,defensa
+2021092607,3182,Defensive Pass Interference,43299,1,defensa
+2021092608,532,Intentional Grounding,43291,1,ofensa
+2021092608,748,Defensive Pass Interference,47892,1,defensa
+2021092608,1694,Illegal Contact,47971,1,defensa
+2021092608,1881,Defensive Pass Interference,38569,1,defensa
+2021092608,2914,Defensive Holding,46091,1,defensa
+2021092608,3504,Illegal Contact,52651,1,defensa
+2021092609,1519,Illegal Use of Hands,53053,1,defensa
+2021092609,1649,Defensive Pass Interference,53629,1,defensa
+2021092609,2790,Illegal Formation,47803,1,ofensa
+2021092609,2835,Roughing the Passer,43308,1,defensa
+2021092610,631,Defensive Offside,47889,1,defensa
+2021092610,804,Illegal Use of Hands,43327,1,defensa
+2021092610,839,Intentional Grounding,41265,1,ofensa
+2021092610,1465,Unnecessary Roughness,43503,1,defensa
+2021092610,1650,Lowering the Head to Initiate Contact,53465,1,defensa
+2021092610,1799,Defensive Holding,38592,1,defensa
+2021092610,2371,Unnecessary Roughness,42827,1,defensa
+2021092610,2472,Offensive Pass Interference,47920,1,ofensa
+2021092610,2653,Unnecessary Roughness,42391,1,defensa
+2021092610,2731,Offensive Holding,52447,1,ofensa
+2021092610,3549,Roughing the Passer,47889,1,defensa
+2021092610,4062,Defensive Pass Interference,47823,1,defensa
+2021092610,4548,Offensive Holding,52426,1,ofensa
+2021092611,891,Defensive Holding,41338,1,defensa
+2021092611,1279,Illegal Formation,,1,
+2021092611,1913,Offensive Pass Interference,35481,1,ofensa
+2021092612,1101,Defensive Holding,47915,1,defensa
+2021092612,1299,Unnecessary Roughness,42543,1,defensa
+2021092612,3435,Roughing the Passer,35539,1,defensa
+2021092613,187,Face Mask (15 Yards),48181,1,ofensa
+2021092613,858,Defensive Pass Interference,53601,1,defensa
+2021092613,931,Ineligible Downfield Pass,48181,1,ofensa
+2021092613,1543,Defensive Pass Interference,46354,1,defensa
+2021092613,2050,Defensive Pass Interference,53458,1,defensa
+2021092613,2083,Illegal Use of Hands,43426,1,defensa
+2021092613,2083,Offensive Holding,45069,2,ofensa
+2021092613,3004,Defensive Pass Interference,46139,1,defensa
+2021092613,3220,Defensive Pass Interference,53458,1,defensa
+2021092613,3681,Roughing the Passer,46087,1,defensa
+2021092613,3741,Tripping,42485,1,defensa
+2021092700,145,Unnecessary Roughness,43378,1,defensa
+2021092700,544,Defensive Pass Interference,39984,1,defensa
+2021092700,620,Face Mask (15 Yards),47974,1,defensa
+2021092700,1932,Offensive Holding,43368,1,ofensa
+2021092700,2358,Offensive Holding,46119,1,ofensa
+2021092700,2530,Defensive Holding,43498,1,defensa
+2021092700,2530,Defensive Pass Interference,43498,2,defensa
+2021092700,3233,Defensive Offside,53502,1,defensa
+2021092700,3482,Offensive Holding,39950,1,ofensa
+2021092700,3544,Offensive Holding,47805,1,ofensa
+2021092700,3760,Offensive Holding,39950,1,ofensa
+2021092700,3795,Offensive Holding,48513,1,ofensa
+2021093000,449,Offensive Pass Interference,53434,1,ofensa
+2021093000,2023,Illegal Use of Hands,46700,1,defensa
+2021093000,2651,Defensive Holding,43350,1,defensa
+2021093000,3006,Illegal Use of Hands,44902,1,defensa
+2021093000,3252,Illegal Use of Hands,43325,1,defensa
+2021093000,3331,Defensive Holding,46700,1,defensa
+2021100300,253,Offensive Holding,53497,1,ofensa
+2021100300,1187,Defensive Pass Interference,44893,1,defensa
+2021100300,1661,Defensive Holding,44893,1,defensa
+2021100300,1812,Defensive Pass Interference,45302,1,defensa
+2021100300,2340,Defensive Pass Interference,43313,1,defensa
+2021100300,2680,Defensive Holding,46269,1,defensa
+2021100300,3136,Roughing the Passer,52410,1,defensa
+2021100300,3606,Illegal Contact,52424,1,defensa
+2021100300,3708,Illegal Formation,47859,1,ofensa
+2021100300,3903,Defensive Offside,42346,1,defensa
+2021100301,59,Offensive Holding,47806,1,ofensa
+2021100301,1629,Face Mask (15 Yards),45339,1,ofensa
+2021100301,1812,Unnecessary Roughness,46672,1,defensa
+2021100301,2496,Offensive Holding,47838,1,ofensa
+2021100301,3369,Unnecessary Roughness,42419,1,ofensa
+2021100301,3636,Offensive Holding,43302,1,ofensa
+2021100302,580,Unnecessary Roughness,53679,1,defensa
+2021100302,1038,Defensive Pass Interference,46077,1,defensa
+2021100302,1137,Defensive Holding,52458,1,defensa
+2021100302,1491,Roughing the Passer,41231,1,defensa
+2021100302,1645,Illegal Forward Pass,41231,1,defensa
+2021100302,2471,Illegal Use of Hands,42443,1,defensa
+2021100302,2506,Offensive Pass Interference,53541,1,ofensa
+2021100302,3232,Defensive Offside,37087,1,defensa
+2021100302,3688,Defensive Offside,41279,1,defensa
+2021100302,3795,Defensive Offside,42382,1,defensa
+2021100302,4116,Defensive Pass Interference,47929,1,defensa
+2021100303,274,Offensive Pass Interference,46206,1,ofensa
+2021100303,1257,Face Mask (15 Yards),42362,1,ofensa
+2021100303,1476,Defensive Holding,52459,1,defensa
+2021100303,1599,Defensive Pass Interference,46124,1,defensa
+2021100303,3335,Unnecessary Roughness,44962,1,defensa
+2021100303,3886,Illegal Use of Hands,53528,1,defensa
+2021100304,171,Illegal Use of Hands,52426,1,ofensa
+2021100304,258,Defensive Too Many Men on Field,,1,
+2021100304,2703,Face Mask (15 Yards),46105,1,defensa
+2021100304,2892,Defensive Pass Interference,39971,1,defensa
+2021100304,2892,Illegal Use of Hands,45009,2,defensa
+2021100304,2948,Defensive Pass Interference,39971,1,defensa
+2021100304,3248,Face Mask (15 Yards),53447,1,defensa
+2021100304,3702,Defensive Pass Interference,48476,1,defensa
+2021100305,317,Illegal Forward Pass,38632,1,ofensa
+2021100305,1479,Offensive Holding,46235,1,ofensa
+2021100305,1613,Defensive Holding,42388,1,defensa
+2021100305,1925,Intentional Grounding,46070,1,ofensa
+2021100305,2393,Offensive Holding,52418,1,ofensa
+2021100305,2579,Roughing the Passer,44847,1,defensa
+2021100305,2655,Offensive Holding,46226,1,ofensa
+2021100305,3058,Offensive Pass Interference,52584,1,ofensa
+2021100305,4066,Defensive Pass Interference,42816,1,defensa
+2021100306,679,Offensive Pass Interference,44908,1,ofensa
+2021100306,1735,Offensive Holding,43695,1,ofensa
+2021100306,2384,Offensive Holding,52513,1,ofensa
+2021100306,4055,Illegal Substitution,52573,1,ofensa
+2021100307,362,Defensive Offside,53053,1,defensa
+2021100307,1010,Roughing the Passer,46141,1,defensa
+2021100307,1150,Ineligible Downfield Pass,53443,1,ofensa
+2021100307,1537,Offensive Pass Interference,45355,1,ofensa
+2021100307,1828,Illegal Use of Hands,41237,1,ofensa
+2021100307,2942,Defensive Pass Interference,46221,1,defensa
+2021100307,3978,Defensive Pass Interference,43645,1,defensa
+2021100307,5073,Defensive Offside,46141,1,defensa
+2021100308,866,Offensive Holding,47805,1,ofensa
+2021100308,1027,Illegal Contact,38843,1,defensa
+2021100308,1308,Offensive Holding,52504,1,ofensa
+2021100308,2483,Offensive Holding,46152,1,ofensa
+2021100308,2812,Offensive Pass Interference,47840,1,ofensa
+2021100308,3861,Illegal Touch Pass,53439,1,ofensa
+2021100308,4138,Illegal Formation,46522,1,ofensa
+2021100309,615,Defensive Holding,47862,1,defensa
+2021100309,1544,Defensive Holding,49410,1,defensa
+2021100309,2280,Offensive Holding,52480,1,ofensa
+2021100309,2457,Roughing the Passer,43298,1,defensa
+2021100309,2927,Roughing the Passer,52416,1,defensa
+2021100309,3443,Illegal Use of Hands,30869,1,ofensa
+2021100309,3522,Defensive Pass Interference,49410,1,defensa
+2021100310,2959,Defensive Offside,41249,1,defensa
+2021100310,3062,Defensive Pass Interference,38547,1,defensa
+2021100310,3700,Defensive Holding,38577,1,defensa
+2021100310,3883,Offensive Holding,46078,1,ofensa
+2021100311,686,Face Mask (15 Yards),42358,1,ofensa
+2021100311,842,Unnecessary Roughness,52479,1,defensa
+2021100311,2964,Face Mask (15 Yards),34457,1,ofensa
+2021100311,3379,Offensive Holding,44832,1,ofensa
+2021100312,216,Defensive Offside,47795,1,defensa
+2021100312,1307,Defensive Offside,42381,1,defensa
+2021100312,2113,Roughing the Passer,44842,1,defensa
+2021100312,3559,Defensive Pass Interference,53458,1,defensa
+2021100313,1389,Defensive Pass Interference,37229,1,defensa
+2021100313,1561,Defensive Pass Interference,46132,1,defensa
+2021100313,2401,Illegal Use of Hands,42377,1,ofensa
+2021100313,3906,Defensive Pass Interference,41269,1,defensa
+2021100313,3966,Offensive Pass Interference,41233,1,ofensa
+2021100313,4216,Defensive Pass Interference,46186,1,defensa
+2021100400,1384,Taunting,42547,1,ofensa
+2021100400,2302,Unnecessary Roughness,47843,1,defensa
+2021100400,2858,Defensive Pass Interference,53476,1,defensa
+2021100400,3279,Offensive Holding,45630,1,ofensa
+2021100400,3805,Unsportsmanlike Conduct,43292,1,defensa
+2021100700,545,Defensive Holding,46456,1,defensa
+2021100700,1143,Defensive Pass Interference,53559,1,defensa
+2021100700,1694,Roughing the Passer,41239,1,defensa
+2021100700,1775,Offensive Holding,33107,1,ofensa
+2021100700,2906,Defensive Pass Interference,43294,1,defensa
+2021101000,143,Roughing the Passer,47881,1,defensa
+2021101000,486,Illegal Shift,,1,
+2021101000,1051,Roughing the Passer,46141,1,defensa
+2021101000,1396,Defensive Pass Interference,44893,1,defensa
+2021101000,1894,Defensive Pass Interference,43645,1,defensa
+2021101000,2837,Illegal Touch Pass,53463,1,ofensa
+2021101000,3080,Offensive Holding,52486,1,ofensa
+2021101000,3235,Illegal Use of Hands,53536,1,ofensa
+2021101000,3294,Defensive Pass Interference,52424,1,defensa
+2021101001,1602,Offensive Holding,46302,1,ofensa
+2021101001,2176,Defensive Offside,46680,1,defensa
+2021101001,3597,Ineligible Downfield Pass,46302,1,ofensa
+2021101001,4094,Offensive Holding,42424,1,ofensa
+2021101002,2474,Offensive Holding,43045,1,ofensa
+2021101003,182,Defensive Pass Interference,46775,1,defensa
+2021101003,1075,Unnecessary Roughness,47837,1,defensa
+2021101003,1307,Offensive Holding,41293,1,ofensa
+2021101003,1546,Defensive Holding,46775,1,defensa
+2021101003,1829,Illegal Use of Hands,41483,1,defensa
+2021101003,3449,Roughing the Passer,43356,1,defensa
+2021101003,3879,Illegal Blindside Block,46775,1,defensa
+2021101004,503,Offensive Holding,47818,1,ofensa
+2021101004,770,Defensive Pass Interference,52631,1,defensa
+2021101004,2891,Unnecessary Roughness,47802,1,defensa
+2021101004,2956,Illegal Use of Hands,42031,1,defensa
+2021101004,3207,Defensive Holding,53451,1,defensa
+2021101004,3515,Offensive Holding,47818,1,ofensa
+2021101005,167,Illegal Contact,38559,1,defensa
+2021101005,620,Illegal Use of Hands,35539,1,defensa
+2021101005,1420,Roughing the Passer,44834,1,defensa
+2021101005,2746,Defensive Pass Interference,41331,1,defensa
+2021101005,3194,Roughing the Passer,35539,1,defensa
+2021101005,3275,Offensive Holding,52483,1,ofensa
+2021101005,3310,Illegal Shift,,1,
+2021101006,1502,Defensive Pass Interference,41240,1,defensa
+2021101006,1774,Offensive Holding,44832,1,ofensa
+2021101006,2974,Offensive Holding,52491,1,ofensa
+2021101007,106,Defensive Offside,35454,1,defensa
+2021101007,295,Offensive Pass Interference,46111,1,ofensa
+2021101007,986,Defensive Holding,43327,1,defensa
+2021101007,1841,Defensive Pass Interference,42390,1,defensa
+2021101007,2623,Defensive Pass Interference,37229,1,defensa
+2021101007,3263,Illegal Use of Hands,48476,1,defensa
+2021101008,899,Defensive Pass Interference,41257,1,defensa
+2021101008,1165,Unnecessary Roughness,43313,1,defensa
+2021101008,1926,Illegal Shift,,1,
+2021101008,2394,Offensive Holding,42356,1,ofensa
+2021101008,3454,Defensive Pass Interference,38607,1,defensa
+2021101008,3644,Defensive Pass Interference,44823,1,defensa
+2021101009,612,Illegal Contact,42816,1,defensa
+2021101009,900,Roughing the Passer,43292,1,defensa
+2021101009,900,Defensive Pass Interference,47913,2,defensa
+2021101009,2355,Defensive Pass Interference,46162,1,defensa
+2021101009,2944,Offensive Holding,40070,1,ofensa
+2021101009,3438,Defensive Pass Interference,53018,1,defensa
+2021101009,3574,Defensive Holding,47829,1,defensa
+2021101009,3901,Taunting,47829,1,defensa
+2021101009,3901,Taunting,48556,2,ofensa
+2021101010,412,Offensive Holding,52517,1,ofensa
+2021101010,412,Offensive Holding,53446,2,ofensa
+2021101010,835,Roughing the Passer,43358,1,defensa
+2021101010,1009,Roughing the Passer,47889,1,defensa
+2021101010,3212,Unnecessary Roughness,46077,1,defensa
+2021101010,3298,Defensive Pass Interference,52547,1,defensa
+2021101010,3352,Offensive Pass Interference,41290,1,ofensa
+2021101010,3957,Offensive Holding,52517,1,ofensa
+2021101011,408,Defensive Pass Interference,40008,1,defensa
+2021101011,1109,Defensive Pass Interference,38673,1,defensa
+2021101011,1235,Defensive Holding,38673,1,defensa
+2021101011,2141,Offensive Holding,35443,1,ofensa
+2021101011,2482,Offensive Holding,52480,1,ofensa
+2021101011,2587,Offensive Holding,35443,1,ofensa
+2021101011,2587,Offensive Holding,46078,2,ofensa
+2021101011,2619,Lowering the Head to Initiate Contact,38551,1,defensa
+2021101011,2996,Illegal Contact,43986,1,defensa
+2021101012,428,Illegal Formation,45532,1,ofensa
+2021101012,2310,Defensive Offside,44892,1,defensa
+2021101012,2633,Defensive Pass Interference,43351,1,defensa
+2021101012,2846,Roughing the Passer,53479,1,defensa
+2021101012,3379,Unnecessary Roughness,52938,1,ofensa
+2021101012,3660,Unnecessary Roughness,44962,1,defensa
+2021101012,3660,Disqualification,53449,2,ofensa
+2021101012,3695,Offensive Holding,37090,1,ofensa
+2021101012,3810,Defensive Pass Interference,43533,1,defensa
+2021101013,97,Defensive Holding,46223,1,defensa
+2021101013,256,Defensive Offside,52462,1,defensa
+2021101013,353,Defensive Holding,44839,1,defensa
+2021101013,933,Illegal Motion,35521,1,ofensa
+2021101013,933,Intentional Grounding,46076,2,ofensa
+2021101013,1183,Defensive Holding,46223,1,defensa
+2021101013,2244,Offensive Pass Interference,39646,1,ofensa
+2021101013,2713,Offensive Holding,46152,1,ofensa
+2021101013,2842,Offensive Pass Interference,35521,1,ofensa
+2021101013,2903,Offensive Holding,46152,1,ofensa
+2021101013,3142,Roughing the Passer,47792,1,defensa
+2021101013,3504,Defensive Pass Interference,44839,1,defensa
+2021101013,3771,Offensive Holding,42392,1,ofensa
+2021101013,3808,Roughing the Passer,42406,1,defensa
+2021101013,4315,Unnecessary Roughness,40166,1,defensa
+2021101100,1681,Defensive Offside,53460,1,defensa
+2021101100,1762,Defensive Pass Interference,46187,1,defensa
+2021101100,2042,Defensive Pass Interference,46187,1,defensa
+2021101100,2308,Roughing the Passer,46105,1,defensa
+2021101100,3247,Defensive Holding,48524,1,defensa
+2021101100,3360,Horse Collar Tackle,37145,1,defensa
+2021101100,3948,Offensive Holding,46275,1,ofensa
+2021101400,500,Defensive Pass Interference,47877,1,defensa
+2021101400,686,Lowering the Head to Initiate Contact,47836,1,ofensa
+2021101400,2578,Defensive Pass Interference,47882,1,defensa
+2021101400,3509,Defensive Holding,46699,1,defensa
+2021101700,994,Clipping,52524,1,ofensa
+2021101700,2560,Unnecessary Roughness,53465,1,defensa
+2021101700,2855,Offensive Pass Interference,44931,1,ofensa
+2021101700,3479,Taunting,44926,1,defensa
+2021101701,2338,Defensive Too Many Men on Field,,1,
+2021101701,3080,Offensive Pass Interference,40024,1,ofensa
+2021101701,3137,Offensive Holding,53442,1,ofensa
+2021101702,1292,Unnecessary Roughness,52415,1,defensa
+2021101702,2192,Offensive Holding,42424,1,ofensa
+2021101702,2415,Offensive Holding,47801,1,ofensa
+2021101702,2697,Defensive Holding,43343,1,defensa
+2021101702,2793,Defensive Holding,41331,1,defensa
+2021101702,3924,Face Mask (15 Yards),44867,1,defensa
+2021101703,451,Defensive Pass Interference,46168,1,defensa
+2021101703,993,Unsportsmanlike Conduct,42378,1,defensa
+2021101703,1634,Offensive Pass Interference,46276,1,ofensa
+2021101703,2398,Defensive Pass Interference,52458,1,defensa
+2021101703,3809,Offensive Holding,45550,1,ofensa
+2021101704,83,Illegal Formation,,1,
+2021101704,617,Offensive Holding,53619,1,ofensa
+2021101704,704,Taunting,46151,1,defensa
+2021101704,746,Offensive Holding,47791,1,ofensa
+2021101704,903,Offensive Holding,38553,1,ofensa
+2021101704,1210,Offensive Holding,53436,1,ofensa
+2021101704,1786,Offensive Holding,48455,1,ofensa
+2021101704,3507,Defensive Pass Interference,53957,1,defensa
+2021101704,3582,Defensive Pass Interference,47929,1,defensa
+2021101705,1849,Illegal Shift,,1,
+2021101705,3026,Tripping,39947,1,ofensa
+2021101705,3198,Defensive Holding,46105,1,defensa
+2021101706,782,Defensive Holding,43294,1,defensa
+2021101707,1135,Lowering the Head to Initiate Contact,41348,1,defensa
+2021101707,1649,Offensive Pass Interference,40011,1,ofensa
+2021101707,1789,Offensive Pass Interference,47859,1,ofensa
+2021101707,2904,Defensive Offside,47809,1,defensa
+2021101707,2938,Defensive Offside,52410,1,defensa
+2021101707,3363,Defensive Holding,52570,1,defensa
+2021101707,3837,Low Block,40011,1,ofensa
+2021101707,3837,Defensive Holding,52624,2,defensa
+2021101707,4080,Illegal Use of Hands,43313,1,defensa
+2021101708,102,Illegal Formation,53539,1,ofensa
+2021101708,631,Face Mask (15 Yards),48473,1,defensa
+2021101708,869,Defensive Pass Interference,46073,1,defensa
+2021101708,965,Defensive Pass Interference,46073,1,defensa
+2021101708,1063,Unnecessary Roughness,44847,1,defensa
+2021101708,1327,Offensive Holding,46235,1,ofensa
+2021101708,3756,Roughing the Passer,38667,1,defensa
+2021101709,126,Illegal Contact,53438,1,defensa
+2021101709,398,Defensive Pass Interference,43797,1,defensa
+2021101709,1791,Offensive Pass Interference,46109,1,ofensa
+2021101709,2185,Defensive Offside,47787,1,defensa
+2021101709,2942,Illegal Use of Hands,46084,1,ofensa
+2021101709,3248,Illegal Blindside Block,45267,1,ofensa
+2021101710,118,Offensive Holding,37082,1,ofensa
+2021101710,882,Illegal Use of Hands,37082,1,ofensa
+2021101710,1146,Horse Collar Tackle,53441,1,defensa
+2021101710,1247,Offensive Holding,41069,1,ofensa
+2021101710,2400,Ineligible Downfield Pass,41242,1,ofensa
+2021101710,2630,Defensive Pass Interference,46775,1,defensa
+2021101710,3074,Illegal Motion,43293,1,ofensa
+2021101710,4092,Offensive Holding,46119,1,ofensa
+2021101710,4092,Unsportsmanlike Conduct,46119,2,ofensa
+2021101711,1574,Defensive Offside,52556,1,defensa
+2021101711,3781,Offensive Pass Interference,52457,1,ofensa
+2021101800,807,Defensive Holding,44839,1,defensa
+2021101800,1338,Unnecessary Roughness,47971,1,defensa
+2021101800,1557,Offensive Holding,47865,1,ofensa
+2021101800,1590,Defensive Offside,39960,1,defensa
+2021101800,1590,Defensive Pass Interference,40107,2,defensa
+2021101800,3000,Defensive Pass Interference,45335,1,defensa
+2021101800,3470,Defensive Pass Interference,52651,1,defensa
+2021102100,1871,Offensive Pass Interference,46109,1,ofensa
+2021102100,2798,Offensive Holding,44832,1,ofensa
+2021102100,3125,Face Mask (15 Yards),37317,1,defensa
+2021102400,1305,Roughing the Passer,37240,1,defensa
+2021102400,2832,Defensive Pass Interference,46187,1,defensa
+2021102400,3115,Offensive Holding,41222,1,ofensa
+2021102401,766,Defensive Pass Interference,44911,1,defensa
+2021102401,1140,Offensive Holding,41296,1,ofensa
+2021102401,2861,Defensive Pass Interference,53503,1,defensa
+2021102401,2954,Illegal Use of Hands,41296,1,ofensa
+2021102402,483,Offensive Pass Interference,42469,1,ofensa
+2021102402,1511,Face Mask (15 Yards),53611,1,defensa
+2021102402,1673,Defensive Pass Interference,42390,1,defensa
+2021102402,2491,Offensive Holding,42924,1,ofensa
+2021102402,2491,Defensive Holding,46269,2,defensa
+2021102402,3081,Roughing the Passer,52464,1,defensa
+2021102402,3689,Illegal Formation,,1,
+2021102403,94,Offensive Holding,42474,1,ofensa
+2021102403,1141,Defensive Pass Interference,52445,1,defensa
+2021102403,2170,Defensive Pass Interference,53575,1,defensa
+2021102403,2506,Defensive Pass Interference,43522,1,defensa
+2021102403,2959,Offensive Holding,42116,1,defensa
+2021102403,3062,Offensive Holding,46092,1,ofensa
+2021102403,3152,Offensive Holding,53443,1,ofensa
+2021102404,742,Unnecessary Roughness,52642,1,defensa
+2021102404,986,Intentional Grounding,46072,1,ofensa
+2021102404,1370,Ineligible Downfield Pass,52507,1,ofensa
+2021102404,1439,Illegal Motion,44821,1,ofensa
+2021102404,1698,Offensive Holding,44876,1,ofensa
+2021102404,1823,Defensive Pass Interference,46230,1,defensa
+2021102404,1921,Intentional Grounding,47789,1,ofensa
+2021102404,3309,Offensive Holding,47995,1,ofensa
+2021102404,3431,Illegal Use of Hands,53595,1,defensa
+2021102405,159,Defensive Pass Interference,52546,1,defensa
+2021102405,597,Offensive Pass Interference,45355,1,ofensa
+2021102405,1404,Defensive Holding,47984,1,defensa
+2021102405,1625,Illegal Use of Hands,39146,1,ofensa
+2021102405,2697,Illegal Use of Hands,47802,1,defensa
+2021102405,3280,Defensive Holding,46221,1,defensa
+2021102405,4123,Defensive Offside,46457,1,defensa
+2021102406,1140,Defensive Pass Interference,53953,1,defensa
+2021102406,1433,Illegal Touch Pass,43453,1,ofensa
+2021102406,2326,Defensive Offside,52475,1,defensa
+2021102406,2814,Illegal Contact,47864,1,defensa
+2021102406,3507,Illegal Use of Hands,43335,1,defensa
+2021102407,427,Offensive Holding,52517,1,ofensa
+2021102407,510,Offensive Holding,46134,1,ofensa
+2021102407,2227,Unsportsmanlike Conduct,37266,1,ofensa
+2021102407,2482,Defensive Holding,43797,1,defensa
+2021102408,1693,Offensive Holding,47838,1,ofensa
+2021102408,2009,Roughing the Passer,43356,1,defensa
+2021102408,2260,Offensive Holding,46143,1,ofensa
+2021102408,2728,Horse Collar Tackle,43372,1,defensa
+2021102408,2855,Illegal Motion,53496,1,ofensa
+2021102408,3668,Illegal Contact,47922,1,defensa
+2021102409,158,Defensive Pass Interference,52571,1,defensa
+2021102409,2771,Offensive Holding,43345,1,ofensa
+2021102410,503,Defensive Pass Interference,38673,1,defensa
+2021102410,854,Defensive Pass Interference,42030,1,defensa
+2021102410,1752,Defensive Pass Interference,46354,1,defensa
+2021102410,2561,Offensive Holding,46075,1,ofensa
+2021102410,2596,Defensive Pass Interference,42389,1,defensa
+2021102410,2633,Defensive Pass Interference,46354,1,defensa
+2021102410,2633,Offensive Pass Interference,48118,2,ofensa
+2021102410,2719,Ineligible Downfield Pass,53584,1,ofensa
+2021102410,2754,Offensive Holding,46331,1,ofensa
+2021102500,1069,Defensive Pass Interference,46211,1,defensa
+2021102500,1562,Unnecessary Roughness,47888,1,defensa
+2021102500,1619,Taunting,44856,1,ofensa
+2021102500,2047,Offensive Holding,41310,1,ofensa
+2021102500,2348,Lowering the Head to Initiate Contact,46083,1,defensa
+2021102500,3099,Offensive Holding,47831,1,ofensa
+2021102500,3506,Roughing the Passer,47830,1,defensa
+2021102500,3624,Offensive Pass Interference,46160,1,ofensa
+2021102800,189,Face Mask (15 Yards),47795,1,defensa
+2021102800,519,Face Mask (15 Yards),39973,1,ofensa
+2021102800,1595,Defensive Holding,46652,1,defensa
+2021102800,2953,Defensive Pass Interference,44911,1,defensa
+2021103100,843,Defensive Pass Interference,53595,1,defensa
+2021103100,1381,Defensive Pass Interference,38540,1,defensa
+2021103100,1624,Defensive Holding,52542,1,defensa
+2021103100,2602,Roughing the Passer,47799,1,defensa
+2021103100,3769,Roughing the Passer,47799,1,defensa
+2021103101,277,Defensive Offside,46085,1,defensa
+2021103101,759,Illegal Use of Hands,43319,1,defensa
+2021103101,1530,Illegal Shift,,1,
+2021103101,1804,Intentional Grounding,46076,1,ofensa
+2021103101,2120,Illegal Shift,,1,
+2021103101,2780,Defensive Pass Interference,47934,1,defensa
+2021103101,2813,Face Mask (15 Yards),53447,1,defensa
+2021103101,2979,Illegal Use of Hands,52464,1,defensa
+2021103101,3439,Defensive Offside,35470,1,defensa
+2021103101,3700,Illegal Contact,42827,1,defensa
+2021103101,3891,Defensive Holding,43327,1,defensa
+2021103101,3891,Illegal Contact,43327,2,defensa
+2021103101,4335,Offensive Holding,42924,1,ofensa
+2021103102,263,Offensive Holding,35443,1,ofensa
+2021103102,1614,Offensive Holding,48158,1,ofensa
+2021103102,1646,Illegal Use of Hands,46156,1,defensa
+2021103102,2255,Defensive Holding,38673,1,defensa
+2021103102,3597,Roughing the Passer,44938,1,defensa
+2021103103,503,Illegal Formation,46161,1,ofensa
+2021103103,3915,Roughing the Passer,52510,1,defensa
+2021103104,1690,Illegal Formation,,1,
+2021103104,1725,Defensive Holding,42441,1,defensa
+2021103104,2399,Offensive Holding,46679,1,ofensa
+2021103105,1366,Defensive Holding,43300,1,defensa
+2021103105,1905,Illegal Use of Hands,53532,1,defensa
+2021103106,1333,Defensive Holding,47947,1,defensa
+2021103106,1773,Defensive Pass Interference,45330,1,defensa
+2021103106,2844,Defensive Pass Interference,47899,1,defensa
+2021103106,2954,Roughing the Passer,46121,1,defensa
+2021103106,3163,Offensive Holding,35472,1,ofensa
+2021103106,3305,Unnecessary Roughness,47802,1,defensa
+2021103106,3492,Defensive Holding,52651,1,defensa
+2021103106,4076,Illegal Formation,46106,1,ofensa
+2021103106,4131,Illegal Use of Hands,42765,1,ofensa
+2021103106,4229,Defensive Pass Interference,43353,1,defensa
+2021103107,79,Offensive Holding,53463,1,ofensa
+2021103107,866,Defensive Holding,53629,1,defensa
+2021103107,1470,Defensive Offside,43308,1,defensa
+2021103107,2620,Roughing the Passer,53540,1,defensa
+2021103107,3578,Offensive Holding,43433,1,ofensa
+2021103107,4029,Illegal Use of Hands,53619,1,ofensa
+2021103107,4200,Unnecessary Roughness,43641,1,defensa
+2021103108,415,Defensive Holding,45571,1,defensa
+2021103108,1124,Unnecessary Roughness,52594,1,defensa
+2021103108,3078,Offensive Holding,41959,1,ofensa
+2021103108,3872,Offensive Holding,45630,1,ofensa
+2021103109,313,Roughing the Passer,52481,1,defensa
+2021103109,1144,Unsportsmanlike Conduct,47847,1,ofensa
+2021103109,1693,Roughing the Passer,43333,1,defensa
+2021103109,1766,Defensive Offside,52428,1,defensa
+2021103109,3146,Defensive Holding,47915,1,defensa
+2021103110,599,Face Mask (15 Yards),42393,1,defensa
+2021103110,2013,Offensive Holding,43484,1,ofensa
+2021103110,2565,Roughing the Passer,53448,1,defensa
+2021103110,3443,Taunting,43387,1,defensa
+2021103110,3443,Unnecessary Roughness,43722,2,ofensa
+2021103111,437,Offensive Holding,42377,1,ofensa
+2021103111,1185,Horse Collar Tackle,47788,1,defensa
+2021103111,1741,Roughing the Passer,47788,1,defensa
+2021103111,1774,Roughing the Passer,40074,1,defensa
+2021103111,3123,Defensive Pass Interference,44823,1,defensa
+2021103111,4107,Defensive Holding,41338,1,defensa
+2021103112,97,Defensive Holding,43533,1,defensa
+2021103112,184,Defensive Pass Interference,52459,1,defensa
+2021103112,386,Defensive Offside,35539,1,defensa
+2021103112,2128,Illegal Contact,52459,1,defensa
+2021103112,2860,Defensive Pass Interference,43343,1,defensa
+2021103112,3221,Offensive Holding,36785,1,ofensa
+2021103112,3363,Intentional Grounding,38632,1,ofensa
+2021103112,3363,Offensive Holding,47976,2,ofensa
+2021103112,3396,Offensive Holding,47976,1,ofensa
+2021103112,3591,Roughing the Passer,44892,1,defensa
+2021103112,4003,Illegal Use of Hands,38559,1,defensa
+2021103112,4076,Offensive Holding,46119,1,ofensa
+2021110100,917,Defensive Pass Interference,41502,1,defensa
+2021110100,1736,Roughing the Passer,52546,1,defensa
+2021110100,1942,Intentional Grounding,44822,1,ofensa
+2021110100,1970,Defensive Offside,42349,1,defensa
+2021110100,2165,Defensive Pass Interference,52546,1,defensa
+2021110100,2226,Offensive Holding,37090,1,ofensa
+2021110100,3796,Taunting,43880,1,ofensa
+2021110100,3876,Defensive Holding,46757,1,defensa
+2021110100,4016,Offensive Holding,46152,1,ofensa
+2021110100,4071,Defensive Offside,47878,1,defensa
+2021110100,4113,Face Mask (15 Yards),52663,1,defensa

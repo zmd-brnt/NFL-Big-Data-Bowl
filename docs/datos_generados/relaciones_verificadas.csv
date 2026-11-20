@@ -1,0 +1,15 @@
+id,tabla_hija,columna_hija,tabla_padre,columna_padre,cardinalidad,filas_hija,sin_padre,cobertura_pct,nota
+R01,plays,gameId,games,gameId,N:1,8557,0,100.0,"122 partidos, unas 70 jugadas cada uno"
+R02,pffScoutingData,gameId+playId,plays,gameId+playId,N:1,188254,0,100.0,22 filas por jugada
+R03,pffScoutingData,nflId,players,nflId,N:1,188254,0,100.0,
+R04,pffScoutingData,pff_nflIdBlockedPlayer,players,nflId,N:1,46526,0,100.0,solo filas con bloqueo
+R05,pffScoutingData,pff_nflIdBlockedPlayer,pffScoutingData (misma jugada),nflId,N:1,46526,2,100.0,el bloqueado casi siempre es un defensor de la misma jugada
+R06,plays,foulNFLId1..3,players,nflId,N:1,767,0,100.0,una fila por falta con jugador
+R07,plays,foulNFLId1..3,pffScoutingData (misma jugada),nflId,N:1,767,1,99.87,el infractor suele estar entre los 22 en campo
+R08,tracking,gameId (archivo),games,gameId,N:1,122,0,100.0,un archivo por partido
+R09,tracking,gameId+playId,plays,gameId+playId,N:1,8557,0,100.0,todas las jugadas de plays tienen tracking
+R10,tracking,nflId,players,nflId,N:1,8901,0,100.0,jugadores únicos por partido
+R11,plays,possessionTeam,games,homeTeamAbbr o visitorTeamAbbr,N:1,8557,0,100.0,
+R12,plays,defensiveTeam,games,homeTeamAbbr o visitorTeamAbbr,N:1,8557,0,100.0,
+R13,tracking (jugador por jugada),gameId+playId+nflId,pffScoutingData,gameId+playId+nflId,1:1,188254,0,100.0,los 22 de tracking son los 22 de PFF
+R14,tracking (jugador por jugada),team,plays,possessionTeam o defensiveTeam según pff_role,N:1,188254,0,100.0,rol ofensivo = equipo en posesión

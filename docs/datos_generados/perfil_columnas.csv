@@ -1,0 +1,78 @@
+tabla,columna,tipo,filas,nulos,pct_nulos,unicos,minimo,maximo,ejemplo
+games,gameId,int64,122,0,0.0,122.0,2021090900,2021110100,2021090900
+games,season,int64,122,0,0.0,1.0,2021,2021,2021
+games,week,int64,122,0,0.0,8.0,1,8,1
+games,gameDate,object,122,0,0.0,24.0,09/09/2021,11/01/2021,09/09/2021
+games,gameTimeEastern,object,122,0,0.0,6.0,09:30:00,20:20:00,20:20:00
+games,homeTeamAbbr,object,122,0,0.0,32.0,ARI,WAS,TB
+games,visitorTeamAbbr,object,122,0,0.0,32.0,ARI,WAS,DAL
+players,nflId,int64,1679,0,0.0,1679.0,25511,54038,25511
+players,height,object,1679,0,0.0,16.0,5-10,6-9,6-4
+players,weight,int64,1679,0,0.0,176.0,158,380,225
+players,birthDate,object,1679,232,13.82,1174.0,01/16/1996,1999-11-27,1977-08-03
+players,collegeName,object,1679,224,13.34,236.0,Air Force,Yale,Michigan
+players,officialPosition,object,1679,0,0.0,19.0,C,WR,QB
+players,displayName,object,1679,0,0.0,1671.0,A'Shawn Robinson,Zay Jones,Tom Brady
+plays,gameId,int64,8557,0,0.0,122.0,2021090900,2021110100,2021090900
+plays,playId,int64,8557,0,0.0,3762.0,54,5223,97
+plays,playDescription,object,8557,0,0.0,8555.0,"(10:00) (No Huddle, Shotgun) J.Brissett pass short right to W.Fuller to LV 23 for 2 yards (N.Hobbs).",TWO-POINT CONVERSION ATTEMPT. Z.Wilson pass to J.Crowder is complete. ATTEMPT SUCCEEDS.,(13:33) (Shotgun) T.Brady pass incomplete deep right to C.Go
+plays,quarter,int64,8557,0,0.0,5.0,1,5,1
+plays,down,int64,8557,0,0.0,5.0,0,4,3
+plays,yardsToGo,int64,8557,0,0.0,32.0,0,39,2
+plays,possessionTeam,object,8557,0,0.0,32.0,ARI,WAS,TB
+plays,defensiveTeam,object,8557,0,0.0,32.0,ARI,WAS,DAL
+plays,yardlineSide,object,8557,125,1.46,32.0,ARI,WAS,TB
+plays,yardlineNumber,int64,8557,0,0.0,50.0,1,50,33
+plays,gameClock,object,8557,0,0.0,898.0,00:00,15:00,13:33
+plays,preSnapHomeScore,int64,8557,0,0.0,42.0,0,54,0
+plays,preSnapVisitorScore,int64,8557,0,0.0,38.0,0,44,0
+plays,passResult,object,8557,0,0.0,5.0,C,S,I
+plays,penaltyYards,float64,8557,7801,91.17,60.0,-18.0,50.0,0.0
+plays,prePenaltyPlayResult,int64,8557,0,0.0,98.0,-34,91,0
+plays,playResult,int64,8557,0,0.0,102.0,-34,91,0
+plays,foulName1,object,8557,7821,91.4,29.0,Chop Block,Unsportsmanlike Conduct,Illegal Use of Hands
+plays,foulNFLId1,float64,8557,7821,91.4,486.0,30869.0,53957.0,52459.0
+plays,foulName2,object,8557,8527,99.65,15.0,Defensive Holding,Unsportsmanlike Conduct,Unnecessary Roughness
+plays,foulNFLId2,float64,8557,8527,99.65,30.0,40107.0,53679.0,44955.0
+plays,foulName3,object,8557,8556,99.99,1.0,Illegal Contact,Illegal Contact,Illegal Contact
+plays,foulNFLId3,float64,8557,8556,99.99,1.0,46190.0,46190.0,46190.0
+plays,absoluteYardlineNumber,float64,8557,1,0.01,99.0,11.0,109.0,43.0
+plays,offenseFormation,object,8557,7,0.08,7.0,EMPTY,WILDCAT,SHOTGUN
+plays,personnelO,object,8557,1,0.01,30.0,"0 RB, 0 TE, 5 WR","7 OL, 1 RB, 0 TE, 2 WR","1 RB, 1 TE, 3 WR"
+plays,defendersInBox,float64,8557,7,0.08,11.0,1.0,11.0,6.0
+plays,personnelD,object,8557,1,0.01,29.0,"0 DL, 3 LB, 8 DB","6 DL, 4 LB, 1 DB","4 DL, 2 LB, 5 DB"
+plays,dropBackType,object,8557,528,6.17,8.0,DESIGNED_ROLLOUT_LEFT,UNKNOWN,TRADITIONAL
+plays,pff_playAction,int64,8557,0,0.0,2.0,0,1,0
+plays,pff_passCoverage,object,8557,0,0.0,12.0,2-Man,Red Zone,Cover-1
+plays,pff_passCoverageType,object,8557,0,0.0,3.0,Man,Zone,Man
+pffScoutingData,gameId,int64,188254,0,0.0,122.0,2021090900,2021110100,2021090900
+pffScoutingData,playId,int64,188254,0,0.0,3762.0,54,5223,97
+pffScoutingData,nflId,int64,188254,0,0.0,1679.0,25511,54038,25511
+pffScoutingData,pff_role,object,188254,0,0.0,5.0,Coverage,Pass Rush,Pass
+pffScoutingData,pff_positionLinedUp,object,188254,0,0.0,56.0,C,TE-oR,QB
+pffScoutingData,pff_hit,float64,188254,94127,50.0,2.0,0.0,1.0,0.0
+pffScoutingData,pff_hurry,float64,188254,94127,50.0,2.0,0.0,1.0,1.0
+pffScoutingData,pff_sack,float64,188254,94127,50.0,2.0,0.0,1.0,0.0
+pffScoutingData,pff_beatenByDefender,float64,188254,140167,74.46,2.0,0.0,1.0,0.0
+pffScoutingData,pff_hitAllowed,float64,188254,140167,74.46,2.0,0.0,1.0,0.0
+pffScoutingData,pff_hurryAllowed,float64,188254,140167,74.46,2.0,0.0,1.0,0.0
+pffScoutingData,pff_sackAllowed,float64,188254,140167,74.46,2.0,0.0,1.0,0.0
+pffScoutingData,pff_nflIdBlockedPlayer,float64,188254,141728,75.29,665.0,33131.0,53999.0,44955.0
+pffScoutingData,pff_blockType,object,188254,140350,74.55,12.0,BH,UP,SW
+pffScoutingData,pff_backFieldBlock,float64,188254,140351,74.55,2.0,0.0,1.0,0.0
+tracking (122 archivos),gameId,int64,8314178,0,0.0,,,,
+tracking (122 archivos),playId,int64,8314178,0,0.0,,,,
+tracking (122 archivos),nflId,float64,8314178,361486,4.35,,,,
+tracking (122 archivos),frameId,int64,8314178,0,0.0,,1.0,203.0,
+tracking (122 archivos),time,object,8314178,0,0.0,,,,
+tracking (122 archivos),jerseyNumber,float64,8314178,361486,4.35,,1.0,99.0,
+tracking (122 archivos),team,object,8314178,0,0.0,,,,
+tracking (122 archivos),playDirection,object,8314178,0,0.0,,,,
+tracking (122 archivos),x,float64,8314178,0,0.0,,-3.55,121.15,
+tracking (122 archivos),y,float64,8314178,0,0.0,,-4.53,57.72,
+tracking (122 archivos),s,float64,8314178,0,0.0,,0.0,29.34,
+tracking (122 archivos),a,float64,8314178,0,0.0,,0.0,50.69,
+tracking (122 archivos),dis,float64,8314178,0,0.0,,0.0,10.45,
+tracking (122 archivos),o,float64,8314178,361486,4.35,,0.0,360.0,
+tracking (122 archivos),dir,float64,8314178,361486,4.35,,0.0,360.0,
+tracking (122 archivos),event,object,8314178,0,0.0,,,,

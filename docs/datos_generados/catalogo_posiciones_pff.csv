@@ -1,0 +1,57 @@
+pff_positionLinedUp,filas,pos_oficial_dominante,pct_pos_oficial,rol_principal,pct_rol,roles_distintos
+C,8557,C,91.5,Pass Block,100.0,1
+LG,8557,G,87.9,Pass Block,100.0,1
+LT,8557,T,97.5,Pass Block,100.0,2
+QB,8557,QB,100.0,Pass,100.0,2
+RG,8557,G,85.1,Pass Block,100.0,1
+RT,8555,T,90.8,Pass Block,100.0,1
+RCB,8224,CB,95.8,Coverage,99.6,2
+LCB,8159,CB,93.9,Coverage,99.7,2
+LWR,8134,WR,86.1,Pass Route,99.7,2
+RWR,8033,WR,85.5,Pass Route,99.7,2
+ROLB,5325,OLB,63.8,Pass Rush,75.9,2
+LOLB,5070,OLB,58.4,Pass Rush,75.7,2
+DRT,4812,DT,57.3,Pass Rush,98.8,2
+LEO,4659,DE,70.1,Pass Rush,98.8,2
+DLT,4371,DT,58.0,Pass Rush,98.9,2
+REO,4287,DE,73.0,Pass Rush,98.6,2
+LLB,4202,ILB,31.7,Coverage,92.6,2
+FSL,3793,FS,54.0,Coverage,100.0,1
+FSR,3764,FS,49.1,Coverage,100.0,1
+RLB,3627,ILB,31.8,Coverage,91.6,2
+SLWR,3546,WR,74.1,Pass Route,99.0,3
+FS,3512,FS,54.3,Coverage,100.0,2
+RILB,3490,ILB,49.2,Coverage,83.9,2
+SRWR,3468,WR,63.0,Pass Route,98.4,3
+SCBR,3422,CB,54.7,Coverage,95.6,2
+LILB,3336,ILB,48.3,Coverage,84.1,2
+SCBL,3246,CB,49.4,Coverage,95.6,2
+LE,3204,DT,49.3,Pass Rush,99.3,2
+HB-L,2870,RB,97.3,Pass Route,79.3,2
+HB-R,2676,RB,97.4,Pass Route,78.7,2
+RE,2383,DT,49.3,Pass Rush,99.3,2
+TE-R,2241,TE,94.1,Pass Route,78.6,2
+SRoWR,1820,WR,82.0,Pass Route,99.9,2
+SRiWR,1820,TE,48.6,Pass Route,97.3,2
+SCBoL,1690,CB,73.7,Coverage,97.1,2
+TE-L,1675,TE,91.9,Pass Route,80.1,2
+HB,1624,RB,99.2,Pass Route,75.4,2
+MLB,1595,ILB,49.7,Coverage,85.6,2
+SLoWR,1432,WR,83.1,Pass Route,99.9,2
+SLiWR,1432,WR,51.8,Pass Route,98.3,2
+SCBoR,1342,CB,73.9,Coverage,98.1,2
+NT,1255,DT,42.2,Pass Rush,99.4,2
+SCBiL,1125,CB,26.0,Coverage,96.1,2
+SCBiR,906,CB,27.7,Coverage,96.9,2
+SSL,799,SS,45.7,Coverage,99.6,2
+SSR,758,SS,48.5,Coverage,99.3,2
+NRT,752,DT,54.5,Pass Rush,98.8,2
+NLT,593,DT,52.4,Pass Rush,99.3,2
+TE-oR,487,TE,94.0,Pass Route,69.2,2
+TE-iR,487,TE,89.3,Pass Route,55.0,2
+SS,424,SS,31.6,Coverage,100.0,1
+TE-iL,292,TE,90.4,Pass Route,58.9,2
+TE-oL,292,TE,91.8,Pass Route,77.4,2
+FB-R,176,TE,50.0,Pass Route,68.8,2
+FB,147,FB,66.0,Pass Route,70.1,2
+FB-L,137,TE,60.6,Pass Route,78.1,2
