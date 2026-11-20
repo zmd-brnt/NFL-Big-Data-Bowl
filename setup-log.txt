@@ -179,3 +179,220 @@ Revisando desviaciones del stack...
 22:06:20 
 RESULTADO: TODO OK, puedes entregar.
 22:06:20 FIN con código de salida 0
+
+===== setup 2026-11-20 12:43:50 =====
+12:43:50 Sistema detectado: linux x64  |  Python del arranque: 3.12.12
+12:43:50 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:43:50 SISTEMA: Linux-7.0.0-38-generic-x86_64-with-glibc2.39  |  detectado: linux x64  |  versión: #38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 16:37:11 UTC 2
+12:43:50 PYTHON: 3.12.12 (/home/brent/Downloads/hackathon-unam/.venv/bin/python)
+12:43:50 USUARIO: brent  |  carpeta actual: /home/brent/Downloads/hackathon-unam
+12:43:50 PROYECTO: /home/brent/Downloads/hackathon-unam  |  largo de ruta: 36  |  espacios: False  |  no ASCII: False
+12:43:50 DISCO LIBRE: 22.2 GB
+12:43:50 PROXY: ninguno
+12:43:50 Proyecto: /home/brent/Downloads/hackathon-unam
+12:43:50 
+Validando (no se descarga ni instala nada)...
+12:43:51 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/uv/uv pip check --python /home/brent/Downloads/hackathon-unam/.venv/bin/python
+12:43:51 Checked 55 packages in 10ms
+All installed packages are compatible
+12:43:51 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:43:53 
+12:43:53   Pieza              Esperado                            Encontrado      Estado
+12:43:53   -----------------  ----------------------------------  --------------  ------
+12:43:53   uv                 0.11.19                             0.11.19         OK    
+12:43:53   Python (.venv)     3.12.12                             3.12.12         OK    
+12:43:53   Node               v22.23.1                            v22.23.1        OK    
+12:43:53   npm                10.x                                10.9.8          OK    
+12:43:53   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:43:53   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:43:53   pip check          sin conflictos                      sin conflictos  OK    
+12:43:53   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:43:53 
+Revisando desviaciones del stack...
+12:43:54 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:43:54 
+12:43:54     El proyecto sigue el stack del evento
+12:43:54 
+RESULTADO: TODO OK, puedes entregar.
+12:43:54 FIN con código de salida 0
+
+===== setup 2026-11-20 13:07:16 =====
+13:07:16 Sistema detectado: linux x64  |  Python del arranque: 3.12.12
+13:07:16 MODO: entregar  |  versión del script: 2026-11-16  |  argumentos: --entregar
+13:07:16 SISTEMA: Linux-7.0.0-38-generic-x86_64-with-glibc2.39  |  detectado: linux x64  |  versión: #38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 16:37:11 UTC 2
+13:07:16 PYTHON: 3.12.12 (/home/brent/Downloads/hackathon-unam/.venv/bin/python)
+13:07:16 USUARIO: brent  |  carpeta actual: /home/brent/Downloads/hackathon-unam
+13:07:16 PROYECTO: /home/brent/Downloads/hackathon-unam  |  largo de ruta: 36  |  espacios: False  |  no ASCII: False
+13:07:16 DISCO LIBRE: 22.1 GB
+13:07:16 PROXY: ninguno
+13:07:16 Proyecto: /home/brent/Downloads/hackathon-unam
+13:07:16 
+Preparando la entrega...
+13:07:16 
+[1/7] Validando el entorno
+13:07:16 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/uv/uv pip check --python /home/brent/Downloads/hackathon-unam/.venv/bin/python
+13:07:16 Checked 55 packages in 2ms
+All installed packages are compatible
+13:07:16 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+13:07:19 
+13:07:19   Pieza              Esperado                            Encontrado      Estado
+13:07:19   -----------------  ----------------------------------  --------------  ------
+13:07:19   uv                 0.11.19                             0.11.19         OK    
+13:07:19   Python (.venv)     3.12.12                             3.12.12         OK    
+13:07:19   Node               v22.23.1                            v22.23.1        OK    
+13:07:19   npm                10.x                                10.9.8          OK    
+13:07:19   Paquetes Python    9 fijos                             9 coinciden     OK    
+13:07:19   Paquetes npm       12 fijos                            12 coinciden    OK    
+13:07:19   pip check          sin conflictos                      sin conflictos  OK    
+13:07:19   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+13:07:19 
+[2/7] Revisando el README y el stack
+13:07:19     AVISO: README.md es muy corto (19 caracteres); los jueces lo leen primero
+13:07:19     AVISO: README.md no tiene ninguna imagen; los jueces piden un visual bien formateado
+13:07:19 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+13:07:20 
+13:07:20     El proyecto sigue el stack del evento
+13:07:20     Rutas del dashboard OK (ninguna empieza con '/')
+13:07:20 
+[3/7] Compilando el dashboard (vite build)
+13:07:20 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/node/bin/node /home/brent/Downloads/hackathon-unam/dashboard/node_modules/vite/bin/vite.js build
+13:07:31 vite v5.4.21 building for production...
+transforming...
+✓ 485 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.39 kB │ gzip:  0.28 kB
+dist/assets/index-DOwIwq5s.css             21.50 kB │ gzip:  5.23 kB
+dist/assets/useReducedMotion-D50_k0_X.js    0.32 kB │ gzip:  0.22 kB
+dist/assets/Sparkline-Dqy8Zrcv.js           0.78 kB │ gzip:  0.53 kB
+dist/assets/format-B_Hyo9bH.js              1.03 kB │ gzip:  0.57 kB
+dist/assets/HeatGrid-BXg61p1W.js            1.34 kB │ gzip:  0.67 kB
+dist/assets/DataNotes-Cx4BU93v.js           1.38 kB │ gzip:  0.59 kB
+dist/assets/DotPlot-GJakAf9Q.js             1.38 kB │ gzip:  0.77 kB
+dist/assets/Term-BUlNocpT.js                1.64 kB │ gzip:  0.85 kB
+dist/assets/Schemes-Bn8ws5wo.js             1.65 kB │ gzip:  0.77 kB
+dist/assets/BoothNotes-Ds1cJIIE.js          2.05 kB │ gzip:  0.92 kB
+dist/assets/Situations-Bm5GfMYO.js          2.48 kB │ gzip:  1.09 kB
+dist/assets/Games-gSTaFyqX.js               2.59 kB │ gzip:  1.15 kB
+dist/assets/Teams-C8dpNbOn.js               3.23 kB │ gzip:  1.44 kB
+dist/assets/Glossary-DgwhKKvO.js            3.32 kB │ gzip:  1.55 kB
+dist/assets/Players-CCbHqRNJ.js             4.01 kB │ gzip:  1.66 kB
+dist/assets/Plays-D4ceZsTn.js               5.10 kB │ gzip:  1.99 kB
+dist/assets/Overview-B4Sj91HM.js           15.05 kB │ gzip:  6.02 kB
+dist/assets/PairBars-BffukAuQ.js           27.30 kB │ gzip:  8.72 kB
+dist/assets/Matchups-aZ9zwq-C.js           32.08 kB │ gzip:  9.57 kB
+dist/assets/index-CnG8sJvS.js             192.78 kB │ gzip: 64.35 kB
+dist/assets/CartesianChart-BV-qaTt_.js    317.12 kB │ gzip: 95.76 kB
+✓ built in 9.45s
+13:07:31     Dashboard compilado en dashboard/dist
+13:07:31 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/node/bin/node /home/brent/Downloads/hackathon-unam/dashboard/node_modules/typescript/bin/tsc --noEmit -p /home/brent/Downloads/hackathon-unam/dashboard
+13:07:39 
+13:07:39 
+[4/7] Comprobando el backend (sintaxis e importación)
+13:07:39 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -m compileall -q backend
+13:07:39 
+13:07:39 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import backend.main
+13:07:40 
+13:07:40     Backend OK (backend.main se importa sin errores)
+13:07:40 
+[5/7] Buscando llaves y credenciales en tus archivos
+13:07:41     Sin credenciales a la vista
+13:07:41 
+[6/7] Empaquetando
+13:09:31 
+[7/7] Verificando el .zip
+13:09:38     463 archivos, 178.7 MB
+13:09:38 
+LISTO. Sube este archivo:
+  /home/brent/Downloads/entrega-hackathon-unam-20261120-1307.zip
+13:09:38 FIN con código de salida 0
+
+===== setup 2026-11-20 13:13:55 =====
+13:13:55 Sistema detectado: linux x64  |  Python del arranque: 3.12.12
+13:13:55 MODO: entregar  |  versión del script: 2026-11-16  |  argumentos: --entregar
+13:13:55 SISTEMA: Linux-7.0.0-38-generic-x86_64-with-glibc2.39  |  detectado: linux x64  |  versión: #38~24.04.4-Ubuntu SMP PREEMPT_DYNAMIC Mon Sep 14 16:37:11 UTC 2
+13:13:55 PYTHON: 3.12.12 (/home/brent/Downloads/hackathon-unam/.venv/bin/python)
+13:13:55 USUARIO: brent  |  carpeta actual: /home/brent/Downloads/hackathon-unam
+13:13:55 PROYECTO: /home/brent/Downloads/hackathon-unam  |  largo de ruta: 36  |  espacios: False  |  no ASCII: False
+13:13:55 DISCO LIBRE: 21.9 GB
+13:13:55 PROXY: ninguno
+13:13:55 Proyecto: /home/brent/Downloads/hackathon-unam
+13:13:55 
+Preparando la entrega...
+13:13:55 
+[1/7] Validando el entorno
+13:13:55 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/uv/uv pip check --python /home/brent/Downloads/hackathon-unam/.venv/bin/python
+13:13:55 Checked 55 packages in 1ms
+All installed packages are compatible
+13:13:55 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+13:13:57 
+13:13:57   Pieza              Esperado                            Encontrado      Estado
+13:13:57   -----------------  ----------------------------------  --------------  ------
+13:13:57   uv                 0.11.19                             0.11.19         OK    
+13:13:57   Python (.venv)     3.12.12                             3.12.12         OK    
+13:13:57   Node               v22.23.1                            v22.23.1        OK    
+13:13:57   npm                10.x                                10.9.8          OK    
+13:13:57   Paquetes Python    9 fijos                             9 coinciden     OK    
+13:13:57   Paquetes npm       12 fijos                            12 coinciden    OK    
+13:13:57   pip check          sin conflictos                      sin conflictos  OK    
+13:13:57   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+13:13:57 
+[2/7] Revisando el README y el stack
+13:13:57     AVISO: README.md no tiene ninguna imagen; los jueces piden un visual bien formateado
+13:13:58 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+13:13:59 
+13:13:59     El proyecto sigue el stack del evento
+13:13:59     Rutas del dashboard OK (ninguna empieza con '/')
+13:13:59 
+[3/7] Compilando el dashboard (vite build)
+13:13:59 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/node/bin/node /home/brent/Downloads/hackathon-unam/dashboard/node_modules/vite/bin/vite.js build
+13:14:06 vite v5.4.21 building for production...
+transforming...
+✓ 485 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.39 kB │ gzip:  0.28 kB
+dist/assets/index-DOwIwq5s.css             21.50 kB │ gzip:  5.23 kB
+dist/assets/useReducedMotion-D50_k0_X.js    0.32 kB │ gzip:  0.22 kB
+dist/assets/Sparkline-Dqy8Zrcv.js           0.78 kB │ gzip:  0.53 kB
+dist/assets/format-B_Hyo9bH.js              1.03 kB │ gzip:  0.57 kB
+dist/assets/HeatGrid-BXg61p1W.js            1.34 kB │ gzip:  0.67 kB
+dist/assets/DataNotes-Cx4BU93v.js           1.38 kB │ gzip:  0.59 kB
+dist/assets/DotPlot-GJakAf9Q.js             1.38 kB │ gzip:  0.77 kB
+dist/assets/Term-BUlNocpT.js                1.64 kB │ gzip:  0.85 kB
+dist/assets/Schemes-Bn8ws5wo.js             1.65 kB │ gzip:  0.77 kB
+dist/assets/BoothNotes-Ds1cJIIE.js          2.05 kB │ gzip:  0.92 kB
+dist/assets/Situations-Bm5GfMYO.js          2.48 kB │ gzip:  1.09 kB
+dist/assets/Games-gSTaFyqX.js               2.59 kB │ gzip:  1.15 kB
+dist/assets/Teams-C8dpNbOn.js               3.23 kB │ gzip:  1.44 kB
+dist/assets/Glossary-DgwhKKvO.js            3.32 kB │ gzip:  1.55 kB
+dist/assets/Players-CCbHqRNJ.js             4.01 kB │ gzip:  1.66 kB
+dist/assets/Plays-D4ceZsTn.js               5.10 kB │ gzip:  1.99 kB
+dist/assets/Overview-B4Sj91HM.js           15.05 kB │ gzip:  6.02 kB
+dist/assets/PairBars-BffukAuQ.js           27.30 kB │ gzip:  8.72 kB
+dist/assets/Matchups-aZ9zwq-C.js           32.08 kB │ gzip:  9.57 kB
+dist/assets/index-CnG8sJvS.js             192.78 kB │ gzip: 64.35 kB
+dist/assets/CartesianChart-BV-qaTt_.js    317.12 kB │ gzip: 95.76 kB
+✓ built in 6.29s
+13:14:06     Dashboard compilado en dashboard/dist
+13:14:06 $ /home/brent/Downloads/hackathon-unam/.hackathon/.tools/node/bin/node /home/brent/Downloads/hackathon-unam/dashboard/node_modules/typescript/bin/tsc --noEmit -p /home/brent/Downloads/hackathon-unam/dashboard
+13:14:10 
+13:14:10 
+[4/7] Comprobando el backend (sintaxis e importación)
+13:14:10 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -m compileall -q backend
+13:14:11 
+13:14:11 $ /home/brent/Downloads/hackathon-unam/.venv/bin/python -c import backend.main
+13:14:12 
+13:14:12     Backend OK (backend.main se importa sin errores)
+13:14:12 
+[5/7] Buscando llaves y credenciales en tus archivos
+13:14:12     Sin credenciales a la vista
+13:14:12 
+[6/7] Empaquetando
+13:15:39 
+[7/7] Verificando el .zip
+13:15:45     468 archivos, 178.7 MB
+13:15:45 
+LISTO. Sube este archivo:
+  /home/brent/Downloads/entrega-hackathon-unam-20261120-1313.zip
+13:15:45 FIN con código de salida 0
